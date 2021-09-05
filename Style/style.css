@@ -10,6 +10,11 @@
 }
 .brand img {
     padding-left: 10px;
+    height:200px;
+    
+}
+.brand img:hover {
+    cursor: pointer;
     height:300px;
     
 }
