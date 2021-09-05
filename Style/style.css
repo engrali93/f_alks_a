@@ -1,13 +1,13 @@
-
-
 *
 {
     margin: 0;
     padding: 0;
 
 }
-
-
+.navbar-toggler{
+height: 150px !important;
+width: 150px;
+}
 
 @media only screen 
 and (min-device-width : 320px) 
@@ -21,7 +21,7 @@ body{
     width: 150px;
    
     }
-    .nav-item li{
+    .container-fluid li{
         font-size: 50px !important;
     }
 }
