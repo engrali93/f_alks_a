@@ -4,3 +4,7 @@
     padding: 0;
 
 }
+.navbar-toggler{
+height: 100px !important;
+width: auto;
+}
