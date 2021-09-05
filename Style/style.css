@@ -4,10 +4,6 @@
     padding: 0;
 
 }
-.navbar-toggler{
-height: 150px !important;
-width: 150px;
-}
 
 @media only screen 
 and (min-device-width : 320px) 
