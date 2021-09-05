@@ -19,6 +19,9 @@ body{
 .navbar-toggler{
     height: 150px !important;
     width: 150px;
-    font-size: 40px;
+   
+    }
+    .nav-item li{
+        font-size: 50px !important;
     }
 }
