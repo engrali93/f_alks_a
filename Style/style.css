@@ -11,7 +11,7 @@
 .short-div {
     padding-left: 10px;
     height:300px;
-    padding: 10px, 10px, 10px, 10px;
+    padding-left: 50px;
 }
 @media only screen 
 and (min-device-width : 320px) 
