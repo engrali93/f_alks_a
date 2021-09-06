@@ -18,7 +18,9 @@ and (max-device-width : 821px)  {
     .container-fluid li{
         font-size: 50px !important;
     }
-    /*************************************/
+/*************************************/
+/**Seller BEst***/
+/**********************************/
 .ProdDesk{
     display: none;
 }
@@ -36,8 +38,8 @@ and (max-device-width : 821px)  {
         
     }
         .ram img{
-            width: 270px;
-            height: 270px;
+            width: 400px;
+            height: 400px;
            
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             border-radius: 10%;
@@ -49,8 +51,8 @@ and (max-device-width : 821px)  {
         margin: 5px;
     }    
         .rabm img{
-            width: 125px;
-            height: 125px;
+            width: 200px;
+            height: 200px;
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             margin-bottom: 10px;
             border-radius: 15%;
