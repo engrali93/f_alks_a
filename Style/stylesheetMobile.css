@@ -36,8 +36,9 @@ and (max-device-width : 821px)  {
 }
     .ram{
         width: fit-content;
-        height: 520px;
+        height: 500px;
        border: 2px solid black;
+       margin-bottom: 20px;
         
     }
         .ram img{
