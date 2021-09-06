@@ -28,30 +28,30 @@ and (max-device-width : 821px)  {
     display: block;
 }
 .containerItemM{
-    border: 2px solid rgb(228, 95, 6);
+    /*border: 2px solid rgb(228, 95, 6);*/
 }
 .rmitem{
-    border: 2px solid rgb(18, 141, 1);
+  
     justify-content: center;
 }
     .ram{
         width: fit-content;
         height: 500px;
-       border: 2px solid black;
+     
        margin-bottom: 20px;
         
     }
         .ram img{
             width: 500px;
             height: 500px;
-            border: 2px solid rgb(209, 53, 53);
+           
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             border-radius: 10%;
         }
     .rabm{
         width: fit-content;
         height: 550px;
-        border: 2px solid black;
+        
         margin: 5px;
         margin-top: 20px;
     }    
@@ -61,7 +61,7 @@ and (max-device-width : 821px)  {
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             margin: 7px;
             border-radius: 15%;
-            border: 2px solid rgb(36, 9, 192);
+            
         }
 
 /*************************************************************************/
