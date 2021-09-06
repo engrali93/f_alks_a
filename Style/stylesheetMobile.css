@@ -36,26 +36,26 @@ and (max-device-width : 821px)  {
 }
     .ram{
         width: fit-content;
-        height: fit-content;
+        height: 500px;
        border: 2px solid black;
         
     }
         .ram img{
-            width: 400px;
-            height: 400px;
+            width: 500px;
+            height: 500px;
             border: 2px solid rgb(209, 53, 53);
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             border-radius: 10%;
         }
     .rabm{
         width: fit-content;
-        height: 300px;
+        height: 550px;
         border: 2px solid black;
         margin: 5px;
     }    
         .rabm img{
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             margin-bottom: 10px;
             border-radius: 15%;
