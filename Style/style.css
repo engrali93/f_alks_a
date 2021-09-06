@@ -10,14 +10,14 @@
     border: 2px solid orange;
 }
 .ra{
-    width: 200px;
+    width: 300px;
     height: 300px;
     border: 2px solid rgb(94, 255, 0);
     margin: 5px;
 }
     .ra img{
-        width: 300px;
-        height: 310px;
+        width: 400px;
+        height: 410px;
         margin-top: 5px;
         
         border-radius: 10%;
