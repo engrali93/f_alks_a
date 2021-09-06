@@ -10,7 +10,7 @@
     border: 2px solid orange;
 }
 .ra{
-    width: 300px!important;
+    width: 400px;
     height: 420px;
     border: 2px solid rgb(94, 255, 0);
     margin: 5px;
@@ -27,7 +27,7 @@
         box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
     }
 .rab{
-    width: 315px!important;
+    width: 415px;
     height: 300px;
     border: 2px solid rgb(47, 0, 255);
     margin: 5px;
