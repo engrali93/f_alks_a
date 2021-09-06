@@ -28,6 +28,52 @@
     
     
 }
+/*************************************************/
+.container{
+   
+    border: 2px solid rgb(218, 131, 0);
+    
+    }
+
+
+    .ra{
+        width: 300px;
+        height: 300px;
+       
+        margin: 5px;
+    }
+        .ra img{
+            width: 300px;
+            height: 310px;
+            margin-top: 5px;
+            
+            border-radius: 10%;
+        }
+        .ra img:hover{
+            cursor: pointer;
+            box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
+        }
+    .rab{
+        width: 400px;
+        height: 300px;
+        
+        margin: 5px;
+    }    
+        .rab img{
+            width: 150px;
+            height: 150px;
+           
+            margin: 5px;
+            border-radius: 15%;
+        }
+        .rab img:hover{
+            cursor: pointer;
+            box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
+        }
+        .footer{
+            display: none;
+        }
+/*************************************************/
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px)  {
