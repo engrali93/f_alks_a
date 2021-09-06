@@ -3,35 +3,48 @@ screen and (min-device-width:240px) and (max-device-width:930px)
 {
 
   /* Styles */
-  .container{
+  body{
+    height: auto;
+    width: 100vw;
+}
+.navbar-toggler{
+    height: 150px !important;
+    width: 150px;
+   
+    }
+    .container-fluid li{
+        font-size: 50px !important;
+    }
+    /*************************************/
+  .containerItem{
 
     border: 2px solid rgb(218, 131, 0);
    
     }
 
-.row{
+.rItem{
     
    
-    
+    border: 2px solid rgb(0, 211, 218);
     justify-content: center;
 }
     .ra{
         width: fit-content;
         height: fit-content;
-       
+        border: 2px solid rgb(185, 218, 0);
         
     }
         .ra img{
             width: 270px;
             height: 270px;
-          
+            border: 2px solid rgb(2, 1, 1);
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             border-radius: 10%;
         }
     .rab{
         width: fit-content;
         height: 300px;
-      
+        border: 2px solid rgb(95, 61, 10);
         margin: 5px;
     }    
         .rab img{
@@ -40,6 +53,7 @@ screen and (min-device-width:240px) and (max-device-width:930px)
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             margin-bottom: 10px;
             border-radius: 15%;
+            border: 2px solid rgb(10, 10, 10);
         }
 
 /*************************************************************************/

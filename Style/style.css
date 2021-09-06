@@ -4,75 +4,47 @@
     padding: 0;
 
 }
-.containerR .row {
-    height:auto;
-    
-}
-.brandM img{
-    border-radius: 10%;
-    box-shadow: 0 8px 6px -1px rgba(0, 0, 0, 0.616);
-}
-.brandM img:hover{
-    cursor: pointer;
-    box-shadow: 3px 3px 5px 6px rgba(46, 101, 253, 0.609);
-}
-.brand img {
-    padding: 10px, 10px, 10px, 10px;
-    height:200px;
-    border-radius: 20%;
-    box-shadow: 0 8px 6px -1px rgba(0, 0, 0, 0.616);
-}
-.brand img:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px 15px 6px rgba(46, 101, 253, 0.609);
-    
-    
-}
+
 /*************************************************/
-.containerItem{
+
+.ra{
+    width: 300px;
+    height: 300px;
    
-    border: 2px solid rgb(218, 131, 0);
-    
-    }
-
-
-    .ra{
+    margin: 5px;
+}
+    .ra img{
         width: 300px;
-        height: 300px;
+        height: 310px;
+        margin-top: 5px;
+        
+        border-radius: 10%;
+    }
+    .ra img:hover{
+        cursor: pointer;
+        box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
+    }
+.rab{
+    width: 400px;
+    height: 300px;
+    
+    margin: 5px;
+}    
+    .rab img{
+        width: 150px;
+        height: 150px;
        
         margin: 5px;
+        border-radius: 15%;
     }
-        .ra img{
-            width: 300px;
-            height: 310px;
-            margin-top: 5px;
-            
-            border-radius: 10%;
-        }
-        .ra img:hover{
-            cursor: pointer;
-            box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
-        }
-    .rab{
-        width: 400px;
-        height: 300px;
-        
-        margin: 5px;
-    }    
-        .rab img{
-            width: 150px;
-            height: 150px;
-           
-            margin: 5px;
-            border-radius: 15%;
-        }
-        .rab img:hover{
-            cursor: pointer;
-            box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
-        }
-        .footer{
-            display: none;
-        }
+    .rab img:hover{
+        cursor: pointer;
+        box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
+    }
+    .footer{
+        display: none;
+    }
+/*##################################################################################*/
 /*************************************************/
 @media only screen 
 and (min-device-width : 320px) 
