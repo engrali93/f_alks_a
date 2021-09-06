@@ -27,9 +27,9 @@ and (max-device-width : 821px)  {
 .ProdM{
     display: block;
 }
-.containerItemM{
-    /*border: 2px solid rgb(228, 95, 6);*/
-}
+/*.containerItemM{
+    border: 2px solid rgb(228, 95, 6);
+}*/
 .rmitem{
   
     justify-content: center;
