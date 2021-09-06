@@ -1,7 +1,9 @@
 @media screen and (min-width:240px) and (max-width:930px), 
 screen and (min-device-width:240px) and (max-device-width:930px)
 {
-
+    .containerItem{
+        display: none;
+    }
   /* Styles */
   body{
     height: auto;
@@ -17,33 +19,33 @@ screen and (min-device-width:240px) and (max-device-width:930px)
     }
     /*************************************/
 
-.containerItem{
-    height: 800px !important;
+.containerItemM{
+    display: block;
 }
-.ritem{
+.rmitem{
     
     justify-content: center;
 }
-    .ra{
+    .ram{
         width: fit-content;
         height: fit-content;
        
         
     }
-        .ra img{
+        .ram img{
             width: 270px;
             height: 270px;
            
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             border-radius: 10%;
         }
-    .rab{
+    .rabm{
         width: fit-content;
         height: 300px;
       
         margin: 5px;
     }    
-        .rab img{
+        .rabm img{
             width: 125px;
             height: 125px;
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
