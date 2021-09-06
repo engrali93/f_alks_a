@@ -19,7 +19,9 @@ and (max-device-width : 821px)  {
         font-size: 50px !important;
     }
     /*************************************/
-
+.ProdDesk{
+    display: none;
+}
 .ProdM{
     display: block;
 }
