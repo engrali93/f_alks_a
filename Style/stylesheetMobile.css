@@ -59,7 +59,7 @@ and (max-device-width : 821px)  {
             width: 250px;
             height: 250px;
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
-            margin: 5px;
+            margin: 7px;
             border-radius: 15%;
             border: 2px solid rgb(36, 9, 192);
         }
