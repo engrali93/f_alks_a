@@ -67,6 +67,7 @@ and (max-device-width : 821px)  {
 /*************************************************************************/
 .FootMob{
     display: block;
+    height: 60px;
 }
 .footer{
 
