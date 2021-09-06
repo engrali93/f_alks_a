@@ -9,6 +9,9 @@
 .containerItem{
     border: 2px solid orange;
 }
+.ritem{
+    border: 2px solid rgb(0, 0, 0);
+}
 .ra{
     width: 400px;
     height: 420px;
