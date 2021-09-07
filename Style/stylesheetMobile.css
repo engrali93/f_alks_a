@@ -118,7 +118,7 @@ font-size: 18px;
     
 }
 .list li:hover{
-    background:rgb(243, 44, 71);
+    box-shadow:2px 2px 4px 5px rgba(0, 0, 0, 0.438);
     color: goldenrod;
 }
 .list a{
