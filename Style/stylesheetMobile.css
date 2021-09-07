@@ -105,11 +105,11 @@ font-size: 18px;
 .ic a:active{
     color: black;
 }
-.Plist{
+.list{
    
     border: 2px solid blue;
 }
-.Plist h2{
+.list h2{
 margin-left: 20px;
 }
 
