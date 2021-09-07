@@ -98,6 +98,9 @@ font-size: 18px;
 .ic a:link{
     color: black;
 }
+.ic a:active{
+    color: black;
+}
 
 .list h2{
 margin-left: 20px;
