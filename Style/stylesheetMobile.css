@@ -117,13 +117,17 @@ font-size: 18px;
     margin-left: 15px;
     
 }
+.list li:focus{
+    
+    background:rgb(64, 226, 43);
+}
 .list a{
     height: 20%;
     background:blueviolet;
     text-decoration: none;
 }
 .list a:focus{
-    background-color: rgb(246, 36, 36);
+    background: rgb(246, 36, 36);
 
 }
 .list h1{
