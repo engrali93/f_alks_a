@@ -108,12 +108,9 @@ font-size: 18px;
 
 .list{
   display:block;
-  max-width: 500px;
-  min-height: 1000px;
+  
 }
-.list li{
-    min-height: 100px;
-}
+
 .list a{
     height: 20%;
 }
