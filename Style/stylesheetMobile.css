@@ -125,6 +125,7 @@ font-size: 18px;
     height: 20%;
     background:blueviolet;
     text-decoration: none;
+    
 }
 .list a:active{
     background: rgb(246, 36, 36);
