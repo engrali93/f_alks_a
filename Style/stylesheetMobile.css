@@ -114,8 +114,8 @@ font-size: 18px;
 
 .list li{
     font-size: calc(150px - 8vw);
-    margin-left: 10px;
-    background:rgb(226, 223, 43);
+    margin-left: 15px;
+    
 }
 .list a{
     height: 20%;
