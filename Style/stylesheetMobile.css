@@ -121,7 +121,7 @@ font-size: 18px;
 }
 .list li:hover{
      
-    box-shadow: inset 19px 19px 21px -13px rgba(0,0,0,0.94);
+    box-shadow: inset 32px -27px 20px -15px rgba(0,0,0,0.94);
     
 }
 .list a{
