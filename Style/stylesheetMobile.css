@@ -65,6 +65,9 @@ and (max-device-width : 821px)  {
         }
 
 /*************************************************************************/
+.oo{
+    display: block;
+}
 .FootMob{
     display: block;
    
