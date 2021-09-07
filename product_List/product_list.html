@@ -9,22 +9,29 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Products</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $(function(){
+              
+                $('#MobileFoot').load('MobileComp/BottomFoot.html');
+            });
+        </script>
   </head>
 
   <body>
 
 
     <div class="list" >
-        <h2 style="margin-left: 8px;">Catagory</h2>
+        <h2 style="margin-left: 8px;">Category</h2>
         <ul class="list-group" >
           <li class="list-group-item" >Audio & Music</li>
           <li class="list-group-item">Computer</li>
           <li class="list-group-item">View All</li>
         </ul>
       </div>
-
-
+      <!----------------MObile footer------------------------------------------->
+      <div class="FootMob" id="MobileFoot"></div>
 
 
 
