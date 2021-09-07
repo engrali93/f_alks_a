@@ -109,6 +109,8 @@ font-size: 18px;
 .list{
   display:block;
   width: device-width;
+  content:initial-scale=1.0;
+  
 }
 
 .list a{
