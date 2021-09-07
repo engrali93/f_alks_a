@@ -94,6 +94,9 @@ align-items: center;
 text-align: center;
 font-size: 18px;
 }
+.ic a:link{
+    color: black;
+}
 
 .list h2{
 margin-left: 20px;
