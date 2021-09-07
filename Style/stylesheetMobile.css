@@ -117,7 +117,7 @@ font-size: 18px;
     margin-left: 15px;
     
 }
-.list li:focus{
+.list li:active{
     
     background:rgb(64, 226, 43);
 }
@@ -126,7 +126,7 @@ font-size: 18px;
     background:blueviolet;
     text-decoration: none;
 }
-.list a:focus{
+.list a:active{
     background: rgb(246, 36, 36);
 
 }
