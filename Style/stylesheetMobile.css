@@ -118,6 +118,7 @@ font-size: 18px;
 }
 .list a{
     height: 20%;
+    color:rgb(0, 255, 64);
 }
 .list a:focus{
     background-color: rgb(246, 36, 36);
