@@ -110,8 +110,8 @@ font-size: 18px;
   display:block;
 
 }
-.list ul{
-    height:100%vh;
+.list li{
+    font-size: calc(100px - 5vw);
 }
 .list a{
     height: 20%;
