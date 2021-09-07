@@ -108,7 +108,7 @@ font-size: 18px;
 
 .list{
   display:block;
-
+    height: 100%vh;
 }
 .list li{
     font-size: calc(100px - 5vw);
