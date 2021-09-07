@@ -128,7 +128,7 @@ font-size: 18px;
     
 }
 .list a:active{
-    background: rgb(246, 36, 36);
+    background: rgb(36, 232, 246);
     color: goldenrod;
 }
 .list h1{
