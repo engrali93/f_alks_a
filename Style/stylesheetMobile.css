@@ -110,7 +110,9 @@ font-size: 18px;
   display:block;
 
 }
-
+.list ul{
+    height:100%vh;
+}
 .list a{
     height: 20%;
 }
