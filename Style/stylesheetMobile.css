@@ -108,7 +108,7 @@ font-size: 18px;
 
 .list{
   display:block;
-  max-width: 100vh;
+  max-width: 500px;
 }
 .list a{
     height: 20%;
