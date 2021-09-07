@@ -100,7 +100,7 @@ font-size: 18px;
 }
 .ic a{
     color: black;
-    weight: bold;
+    font-weight: bold;
 }
 .ic a:active{
     color: black;
