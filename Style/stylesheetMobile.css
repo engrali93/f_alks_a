@@ -107,6 +107,7 @@ font-size: 18px;
 }
 .list{
   display:block;
+  --size-divisor: 2;
 }
 .list a{
     height: 20%;
