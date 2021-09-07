@@ -106,7 +106,7 @@ font-size: 18px;
     color: black;
 }
 
-.list a:active{
+.list a:focus{
     background-color: rgb(246, 36, 36);
 }
 .list h1{
