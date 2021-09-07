@@ -105,9 +105,10 @@ font-size: 18px;
 .ic a:active{
     color: black;
 }
+
 .list{
   display:block;
-  --size-divisor: 2;
+  max-width: 100vh;
 }
 .list a{
     height: 20%;
