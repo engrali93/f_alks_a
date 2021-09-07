@@ -107,6 +107,7 @@ font-size: 18px;
 }
 .Plist{
     height: 100%;
+    border: 2px solid blue;
 }
 .Plist h2{
 margin-left: 20px;
