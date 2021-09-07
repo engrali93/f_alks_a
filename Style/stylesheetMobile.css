@@ -105,7 +105,9 @@ font-size: 18px;
 .ic a:active{
     color: black;
 }
-
+.list a{
+    height: 30px;
+}
 .list a:focus{
     background-color: rgb(246, 36, 36);
 }
