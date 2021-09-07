@@ -105,13 +105,13 @@ font-size: 18px;
 .ic a:active{
     color: black;
 }
-.list{
-   
-   
+
+.list li:active{
+    background-color: rgb(138, 136, 136);
 }
 .list h1{
     margin-top: 20px;
-margin-left: 20px;
+    margin-left: 20px;
 }
 
 
