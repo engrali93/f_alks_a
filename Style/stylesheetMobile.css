@@ -108,7 +108,7 @@ font-size: 18px;
 
 .list{
   display:block;
-    min-height: 500vh;
+    min-height: 100vh;
 }
 
 .list li{
