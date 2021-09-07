@@ -117,7 +117,7 @@ font-size: 18px;
     margin-left: 15px;
     
 }
-.list li:active{
+.list li:hover{
     
     color: goldenrod;
 }
