@@ -115,11 +115,12 @@ font-size: 18px;
 .list li{
     font-size: calc(150px - 8vw);
     margin-left: 10px;
-    text-decoration: none;
+    
 }
 .list a{
     height: 20%;
     color:rgb(0, 255, 64);
+    text-decoration: none;
 }
 .list a:focus{
     background-color: rgb(246, 36, 36);
