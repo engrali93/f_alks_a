@@ -113,7 +113,7 @@ font-size: 18px;
 }
 
 .list li{
-    font-size: calc(150px - 7vw);
+    font-size: calc(150px - 6vw);
     margin-left: 10px;
 }
 .list a{
