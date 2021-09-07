@@ -108,9 +108,7 @@ font-size: 18px;
 
 .list{
   display:block;
-  width: device-width;
-  content:initial-scale=1.0;
-  name: viewport;
+
 }
 
 .list a{
@@ -122,6 +120,7 @@ font-size: 18px;
 .list h1{
     margin-top: 20px;
     margin-left: 20px;
+    font-size: 5%vh;
 }
 
 
