@@ -115,6 +115,7 @@ font-size: 18px;
 .list li{
     font-size: calc(150px - 8vw);
     margin-left: 10px;
+    text-decoration: none;
 }
 .list a{
     height: 20%;
