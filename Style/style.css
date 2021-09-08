@@ -59,9 +59,12 @@
         display: none;
     }
     .limit_Edition{
-        width:60%;
+       
         justify-content: center;
         border: 2px solid red;
+    }
+    .limit_Edition img{
+        width: 400px;
     }
 /*##################################################################################*/
 /*************************************************/
