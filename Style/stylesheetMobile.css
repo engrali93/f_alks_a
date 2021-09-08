@@ -12,7 +12,7 @@ and (max-device-width : 821px)  {
 }
 .navbar-toggler-icon{
     padding: 45px !important;
-    border: none !important;
+    outline: none !important;
     
    
     }
