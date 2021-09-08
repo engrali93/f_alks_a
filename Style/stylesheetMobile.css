@@ -10,7 +10,7 @@ and (max-device-width : 821px)  {
     height: auto;
     width: 100vw;
 }
-.navbar-toggler{
+.navbar-toggler-icon{
     padding: 70px !important;
     
    
