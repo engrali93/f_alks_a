@@ -63,7 +63,7 @@
         justify-content: center;
         border: 2px solid red;
     }
-    .second_car{
+    .second_car .carousel-inner{
         width: 400px!important;
         border: 2px solid rgb(0, 47, 255);
     }
