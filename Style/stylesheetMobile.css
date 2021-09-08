@@ -11,8 +11,8 @@ and (max-device-width : 821px)  {
     width: 100vw;
 }
 .navbar-toggler{
-    height: 150px !important;
-    width: 150px;
+    padding: 50px !important;
+    
    
     }
     .container-fluid li{
