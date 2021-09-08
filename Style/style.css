@@ -59,17 +59,11 @@
         display: none;
     }
     .limit_Edition{
-       text-align: center;
-        justify-content: center;
+      
         border: 2px solid red;
-        align-content: center;
+    
     }
-    .limit_Edition .carousel-inner{
-       width: 500px;
-        border: 2px solid rgb(0, 47, 255);
-        justify-content: center;
-        text-align: center;
-    }
+  
 /*##################################################################################*/
 /*************************************************/
 /****@media only screen 
