@@ -13,11 +13,8 @@ and (max-device-width : 821px)  {
 .navbar-toggler-icon{
     padding: 45px !important;
    }
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none!important;
-    box-shadow: none!important;
+.navbar-toggler {
+    border: none!important;
 }
     .container-fluid li{
         font-size: 50px !important;
