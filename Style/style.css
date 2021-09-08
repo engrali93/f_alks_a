@@ -65,7 +65,7 @@
         align-content: center;
     }
     .limit_Edition .carousel-inner{
-       
+       width: 500px;
         border: 2px solid rgb(0, 47, 255);
     }
 /*##################################################################################*/
