@@ -12,10 +12,13 @@ and (max-device-width : 821px)  {
 }
 .navbar-toggler-icon{
     padding: 45px !important;
-    outline: none !important;
-    
-   
-    }
+   }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
     .container-fluid li{
         font-size: 50px !important;
     }
