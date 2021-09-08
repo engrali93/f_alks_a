@@ -64,7 +64,7 @@
         border: 2px solid red;
     }
     .carousel-inner{
-        width: 400px;
+        width: 400px!important;
         border: 2px solid rgb(0, 47, 255);
     }
 /*##################################################################################*/
