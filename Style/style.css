@@ -62,8 +62,9 @@
        text-align: center;
         justify-content: center;
         border: 2px solid red;
+        align-content: center;
     }
-    .second_car .carousel-inner{
+    .limit_Edition .carousel-inner{
         width: 400px!important;
         border: 2px solid rgb(0, 47, 255);
     }
