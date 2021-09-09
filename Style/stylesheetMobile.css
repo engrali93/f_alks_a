@@ -163,5 +163,11 @@ font-size: 18px;
 .my-float{
 	margin-top:16px;
 }
+.my-float:active{
+    color:white;
+}
+.my-float:focus{
+    color:white;
+}
 
 }
