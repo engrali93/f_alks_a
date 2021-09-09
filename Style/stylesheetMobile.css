@@ -182,7 +182,11 @@ font-size: 18px;
     margin-top: 25% !important;
     font-size: 50px !important;
 }
-.foot_add{
-    width: 400px!important;
+.containerFW{
+    float:left;
+    width:50%;/*so as to give equal width to div */
+    outline:1px solid red;/*optional*/
+    height:400px;/*use your own value*/
+  
 }
 }
