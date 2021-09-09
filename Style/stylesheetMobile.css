@@ -176,5 +176,9 @@ font-size: 18px;
     height: 100px!important;
     width: 100px!important;
 }
+.social_icon i{
+    height: 100px!important;
+    width: 100px!important;
+}
 
 }
