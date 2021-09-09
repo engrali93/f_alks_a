@@ -182,17 +182,10 @@ font-size: 18px;
     margin-top: 25% !important;
     font-size: 50px !important;
 }
-.containerFW{
+.colFW{
     float:left;
-    width:50%;/*so as to give equal width to div */
-    outline:1px solid red;/*optional*/
-    height:400px;/*use your own value*/
+
   
 }
-.containerFW:after {
-        content:"";
-        display:block;
-        clear:both;
-    
-}
+
 }
