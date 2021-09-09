@@ -172,7 +172,7 @@ font-size: 18px;
 	margin-top:16px;
 }
 
-.social_icon{
+.social_icon a{
     height: 100!important;
     width: 100!important;
 }
