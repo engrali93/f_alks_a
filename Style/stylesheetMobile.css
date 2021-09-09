@@ -178,8 +178,7 @@ font-size: 18px;
     border-radius: 50%;
 }
 .social_icon i{
-    height: 100px!important;
-    width: 100px!important;
+    margin: auto !important;
     font-size: 50px !important;
 }
 
