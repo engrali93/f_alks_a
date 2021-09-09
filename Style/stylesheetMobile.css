@@ -189,4 +189,10 @@ font-size: 18px;
     height:400px;/*use your own value*/
   
 }
+.containerFW:after {
+        content:"";
+        display:block;
+        clear:both;
+    
+}
 }
