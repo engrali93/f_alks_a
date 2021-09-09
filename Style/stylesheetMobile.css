@@ -172,5 +172,9 @@ font-size: 18px;
 	margin-top:16px;
 }
 
+.social_icon{
+    height: 100!important;
+    width: 100!important;
+}
 
 }
