@@ -159,12 +159,15 @@ font-size: 18px;
 	box-shadow: 2px 2px 3px rgb(143, 143, 143);
   z-index:100;
 }
-
+.float_WA i:active{
+    color: white !important;;
+}
+.float_WA i:focus{
+    color: white !important;;
+}
 .my-float{
 	margin-top:16px;
 }
-.my-float:link{
-        text-decoration:none !important;
-}
+
 
 }
