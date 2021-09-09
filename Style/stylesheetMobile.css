@@ -169,5 +169,8 @@ font-size: 18px;
 .my-float:focus{
     color:white;
 }
+.my-float:link{
+    color:white;
+}
 
 }
