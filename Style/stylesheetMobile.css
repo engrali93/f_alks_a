@@ -186,6 +186,7 @@ font-size: 18px;
     float:left;
     width: 100%!important;
     text-align: center !important;
+    margin: 0 10% 0 10% !important;
 }
 .colFW h6{
     font-size: 35px !important;
