@@ -177,9 +177,10 @@ font-size: 18px;
     width: 100px!important;
     font: size 50px !important;
 }
-.social_icon .fab{
+.social_icon i{
     height: 100px!important;
     width: 100px!important;
+    font-size: 100px !important;
 }
 
 }
