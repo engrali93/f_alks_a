@@ -70,7 +70,7 @@
     margin: auto;
     text-align: center;
     justify-content: center;
-    
+    border-radius: 50px;
 }
 
 .flash-box img{
@@ -79,7 +79,7 @@
     text-align: center;
     width: 100%;
     height: auto;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 /**######################################*/
 .flash-box {
