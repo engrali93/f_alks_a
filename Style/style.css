@@ -85,6 +85,7 @@
 }
 /**######################################*/
 .flash-box {
+    --box-color: #D4AF37;
 	-webkit-animation: shadow-drop-centerLD 1.5s 1s infinite alternate both;
 	        animation: shadow-drop-centerLD 1.5s 1s infinite alternate both;
 }
@@ -94,8 +95,8 @@
               box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
     100% {
-      -webkit-box-shadow: 0 0 30px 40px #D4AF37;
-              box-shadow: 0 0 30px 40px #D4AF37;
+      -webkit-box-shadow: 0 0 30px 40px var(--box-color);
+              box-shadow: 0 0 30px 40px var(--box-color);
     }
   }
   @keyframes shadow-drop-centerLD {
@@ -104,13 +105,13 @@
               box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
     100% {
-      -webkit-box-shadow: 0 0 30px 40px #D4AF37;
-              box-shadow: 0 0 30px 40px #D4AF37;
+      -webkit-box-shadow: 0 0 30px 40px var(--box-color);
+              box-shadow: 0 0 30px 40px var(--box-color);
     }
   }
   .flash-box:hover{
     
-    color: #000000a1;
+    --box-color: black;
   }
   
 
