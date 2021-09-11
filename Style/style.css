@@ -95,8 +95,8 @@
               box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
     100% {
-      -webkit-box-shadow: 0 0 10px 40px var(--box-color);
-              box-shadow: 0 0 10px 40px var(--box-color);
+      -webkit-box-shadow: 0 0 1px 40px var(--box-color);
+              box-shadow: 0 0 1px 40px var(--box-color);
     }
   }
   @keyframes shadow-drop-centerLD {
@@ -105,8 +105,8 @@
               box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
     100% {
-      -webkit-box-shadow: 0 0 10px 40px var(--box-color);
-              box-shadow: 0 0 10px 40px var(--box-color);
+      -webkit-box-shadow: 0 0 1px 40px var(--box-color);
+              box-shadow: 0 0 1px 40px var(--box-color);
     }
   }
   .flash-box:hover{
