@@ -60,7 +60,7 @@
     }
 /***********Limited Edition*******************************/
 .limit_Edition{
-    margin-top: 10vh;
+    margin-top: 20vh;
     border: 2px solid red;
 }
 .flash-box{
@@ -75,6 +75,8 @@
     border: 2px solid rgb(5, 158, 82);
     margin: auto;
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 /******************whatsapp*************/
     .float_WA{
