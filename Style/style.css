@@ -111,7 +111,7 @@
   }
   .flash-box:hover{
     
-    --box-color: black;
+    --box-color: rgba(0, 0, 0, 0.541);
   }
   
 
