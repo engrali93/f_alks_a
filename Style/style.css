@@ -60,7 +60,7 @@
     }
 /***********Limited Edition*******************************/
 .limit_Edition{
-    margin-top: 40px;
+    margin-top: 10%vh;
     border: 2px solid red;
 }
 .flash-box{
