@@ -58,14 +58,8 @@
     .list{
         display: none;
     }
-    .limit_Edition{
-      
-        border: 2px solid red;
-    
-    }
-    .limit_Edition .lio .col-8{
-        height: 400px !important;
-    }
+/***********Limited Edition*******************************/
+
 /******************whatsapp*************/
     .float_WA{
         display: none;
