@@ -66,8 +66,10 @@
     border: 2px solid blue;
     width: 50%;
     margin: auto;
+    text-align: center;
     justify-content: center;
 }
+
 .flash-box a{
     border: 3px solid black;
     margin: auto;
