@@ -79,7 +79,7 @@
     height: auto;
 }
 /**######################################*/
-.flash-box img {
+.flash-box {
 	-webkit-animation: shadow-drop-centerLD 1.5s linear 1.5s infinite alternate both;
 	        animation: shadow-drop-centerLD 1.5s linear 1.5s infinite alternate both;
 }
