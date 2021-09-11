@@ -24,7 +24,7 @@ body{
 }
 .panel{
   margin: auto;
-  text-align: center;
+ 
   justify-content: center;
   border:8px solid blue;
   background:rgb(251, 251, 251);
