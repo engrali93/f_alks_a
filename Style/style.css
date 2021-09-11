@@ -80,8 +80,8 @@
 }
 /**######################################*/
 .flash-box {
-	-webkit-animation: shadow-drop-centerLD 1.5s linear 1.5s infinite alternate both;
-	        animation: shadow-drop-centerLD 1.5s linear 1.5s infinite alternate both;
+	-webkit-animation: shadow-drop-centerLD 1.5s 1s infinite alternate both;
+	        animation: shadow-drop-centerLD 1.5s 1s infinite alternate both;
 }
 @-webkit-keyframes shadow-drop-centerLD {
     0% {
