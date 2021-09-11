@@ -69,6 +69,7 @@
 }
 .flash-box a{
     border: 3px solid black;
+    margin: auto;
 }
 .flash-box img{
     border: 2px solid rgb(5, 158, 82);
