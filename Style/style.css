@@ -64,7 +64,7 @@
     border: 2px solid red;
 }
 .flash-box{
-    border: 2px solid blue;
+ 
     width: 50%;
     margin: auto;
     text-align: center;
@@ -72,7 +72,7 @@
 }
 
 .flash-box img{
-    border: 2px solid rgb(5, 158, 82);
+  
     margin: auto;
     text-align: center;
     width: 100%;
