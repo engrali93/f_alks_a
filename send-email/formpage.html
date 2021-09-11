@@ -22,9 +22,15 @@
                             <div class="panel-body">
                                 <form id="reused_form" style="padding: 15px 15px 15px 15px;">
                                     <h2>Order</h2>
-                                    <div class="form-group">
+                                    <div class="row">
+                                    <div class="form-group col">
                                         <label >Product*</label>
                                         <input type="text" name="product" class="form-control" placeholder="Earphone D17" disabled>
+                                    </div>
+                                    <div class="form-group col">
+                                        <label >Qty.*</label>
+                                        <input type="number" name="qty" class="form-control" value="1" min="1" max="10" step="1" />
+                                    </div>
                                     </div>
                                     <div class="form-group">
                                         <label >Name*</label>
@@ -50,14 +56,11 @@
                                         <label >Message (Optional)</label>
                                         <textarea rows="3" name="message" class="form-control" placeholder="Type any additional information"></textarea>
                                     </div>
-                                    <div class="row" style="margin-top:20px;">
-                                    <div class="form-group col">
+                              
+                                    <div class="form-group" style="margin-top:20px;">
                                         <button class="btn  btn-primary" type="submit">Direct Order</button>
                                     </div>
-                                    <div class="form-group col">
-                                        <button class="btn  btn-success" type="submit">Whatsapp Order</button>
-                                    </div>
-                                    </div>
+                                  
                                 </form>
                                 <div id="error_message" style="width:100%; height:100%; display:none; ">
                                     <h4>
