@@ -60,6 +60,7 @@
     }
 /***********Limited Edition*******************************/
 .limit_Edition{
+    margin-top: 40px;
     border: 2px solid red;
 }
 .flash-box{
@@ -70,10 +71,6 @@
     justify-content: center;
 }
 
-.flash-box a{
-    border: 3px solid black;
-    margin: auto;
-}
 .flash-box img{
     border: 2px solid rgb(5, 158, 82);
     margin: auto;
