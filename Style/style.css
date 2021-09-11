@@ -67,6 +67,9 @@
     width: 50%;
     margin: auto;
 }
+.flash-box img{
+    margin: auto;
+}
 /******************whatsapp*************/
     .float_WA{
         display: none;
