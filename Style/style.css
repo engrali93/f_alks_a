@@ -109,8 +109,8 @@
     }
   }
   .flash-box:hover{
-    -webkit-box-shadow: 0 0 30px 40px #000000a1;
-    box-shadow: 0 0 30px 40px #000000a1;
+    
+    color: #000000a1;
   }
   
 
