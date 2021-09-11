@@ -7,7 +7,7 @@ body{
   background:url('images/Picture2.png') ;
   background-size: 50px 100px;
   background-repeat: repeat-x,repeat-y;
-  background-size: cover;
+  
   height:100%;
   width:100%;
 
