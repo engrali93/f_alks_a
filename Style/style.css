@@ -65,6 +65,7 @@
 .flash-box{
     border: 2px solid blue;
     width: 50%;
+    margin: auto;
 }
 /******************whatsapp*************/
     .float_WA{
