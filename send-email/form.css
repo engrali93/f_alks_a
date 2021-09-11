@@ -14,9 +14,10 @@ body{
 
 .form-top{
 	margin-top: 30px;
-  background-color: lightgray;
+  
 }
 .panel{
+  background:gray;
 	box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
 	border-radius: 10px;
     border: 0;
