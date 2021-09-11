@@ -59,7 +59,9 @@
         display: none;
     }
 /***********Limited Edition*******************************/
-
+.limit_Edition{
+    border: 2px solid red;
+}
 /******************whatsapp*************/
     .float_WA{
         display: none;
