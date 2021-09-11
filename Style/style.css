@@ -62,6 +62,9 @@
 .limit_Edition{
     border: 2px solid red;
 }
+.flash-box{
+    border: 2px solid blue;
+}
 /******************whatsapp*************/
     .float_WA{
         display: none;
