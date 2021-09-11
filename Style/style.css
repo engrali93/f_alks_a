@@ -78,6 +78,33 @@
     width: 100%;
     height: auto;
 }
+/**######################################*/
+.flash-box img {
+	-webkit-animation: shadow-drop-centerLD 1.5s linear 1.5s infinite alternate both;
+	        animation: shadow-drop-centerLD 1.5s linear 1.5s infinite alternate both;
+}
+@-webkit-keyframes shadow-drop-centerLD {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-centerLD {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  
+
 /******************whatsapp*************/
     .float_WA{
         display: none;
