@@ -28,7 +28,7 @@ body{
  
   border:8px solid blue;
   background:rgb(251, 251, 251);
-	box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.466) ;
+	box-shadow: 0 0 10px 40px rgba(0, 0, 0, 0.466) ;
 	border-radius: 10px;
     border: 0;
 }
