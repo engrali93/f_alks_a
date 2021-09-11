@@ -113,6 +113,9 @@
     
     --box-color: rgba(0, 0, 0, 0.445);
   }
+  .flash-box img:hover{
+      filter: grayscale(100%);
+  }
   
 
 /******************whatsapp*************/
