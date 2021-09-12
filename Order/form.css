@@ -7,8 +7,11 @@
 }
 body
 {
-	background-color: #F4EAD5;
-	background-image: url("images/window-484596_1280.jpg");
-	background-size: cover;
+
+	background-image: url("images/Picture2.png");
+	background-size: 50px 100px;
+	background-repeat: repeat;
+	height:100%;
+	width:100%;
 }
 
