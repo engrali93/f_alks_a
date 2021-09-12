@@ -6,6 +6,6 @@
     width:100%;
     background-image: url(img/ear1.jpg);
     background-position: center;
-    
-    
+    text-align: center;
+    horizontal-align: middle;
 }
