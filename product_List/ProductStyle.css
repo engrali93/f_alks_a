@@ -44,7 +44,7 @@
 }
 .col-sm-3 a:active{
     color: #FFFFFF;
-    
+    text-decoration: underline!important;
 }
 
 /***************Entertainment music***************************************/
