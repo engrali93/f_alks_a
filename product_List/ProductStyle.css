@@ -11,6 +11,7 @@
     color: white;
 }
 .game_audio h1{
+    display: inline-block;
     vertical-align: middle!important;
     border: 2px solid red;
     height:100%;
