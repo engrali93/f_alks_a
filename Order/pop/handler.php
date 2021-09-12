@@ -14,17 +14,15 @@ use FormGuide\Handlx\FormHandler;
 $pp = new FormHandler(); 
 
 $validator = $pp->getValidator();
-$validator->fields(['name','city','phone'])->areRequired()->maxLength(50);
-$validator->field('address')->areRequired()->maxLength(6000);
-$validator->field('qty')->areRequired();
-
-$validator->field('phone')->is_numeric();
+$validator->fields(['name','email'])->areRequired()->maxLength(50);
 $validator->field('email')->isEmail();
 $validator->field('message')->maxLength(6000);
+$validator->field('address')->isRequired()->maxLength(6000);
 
 
 
 
-$pp->sendEmailTo('engr.ali93@gmail.com'); // ← Your email here
+
+$pp->sendEmailTo('falksa.brands@gmail.com'); // ← Your email here
 
 echo $pp->process($_POST);
