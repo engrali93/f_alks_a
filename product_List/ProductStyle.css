@@ -124,14 +124,17 @@
 {
     .col-sm-3 a:hover{
         text-decoration: underline!important;
+        text-decoration-thickness: 2px;
         color: goldenrod!important
     }
     .col-sm-3 a:active{
         text-decoration: underline!important;
+        text-decoration-thickness: 2px;
         color: goldenrod!important
     }  
     .col-sm-3 a:focus{
         text-decoration: underline!important;
+        text-decoration-thickness: 2px;
         color: goldenrod!important
     }  
 }
