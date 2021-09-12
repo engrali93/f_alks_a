@@ -23,6 +23,7 @@
 }
 .main_container .col-3{
     border: 2px solid blue;
+    margin: 0 10px 0 10px;
 }
 
 /***************Entertainment music***************************************/
