@@ -18,13 +18,14 @@
     height:100%;
 }
 .main_container{
-    border: 2px solid red;
+    
     align-content: center;
     justify-content: center;
     margin-bottom: 20px;
 }
 .main_container .col-sm-3{
-    border: 2px solid blue;
+   
+    
     margin: 30px 10px 30px 10px;
     text-align: center;
 }
