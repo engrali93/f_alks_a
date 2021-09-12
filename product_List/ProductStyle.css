@@ -42,7 +42,7 @@
    
     
 }
-.col-sm-3 a:active{
+.col-sm-3 a:focus{
     
     color: goldenrod!important
 }
