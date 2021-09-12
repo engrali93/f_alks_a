@@ -18,12 +18,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link rel="stylesheet" href="form.css" >
         <script src="form.js"></script>
+        <script src="bootstrap-input-spinner.js"></script>
     </head>
     <body >
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3" id="form_container" style="margin: auto!important;">
-                    <div class="row" style="border: 2px solid red;">
+                    <div class="row">
                         <div class="col">
                         <h2>Order</h2>
                         </div>
@@ -32,6 +33,16 @@
                         </div>
                     </div>
                     <form role="form" method="post" id="reused_form">
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="Product"> Product:</label>
+                                <input type="text" class="form-control" id="product" name="product" disabled>FLK-D17
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label for="qty"> Qty:</label>
+                                <input type="numberCnt" class="form-control" id="qty" name="qty" required>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
                                 <label for="message"> Message:</label>
@@ -68,5 +79,8 @@
                 </div>
             </div>
         </div>
+        <script>
+            $("input[type='numberCnt']").inputSpinner()
+        </script>
     </body>
 </html>
