@@ -42,6 +42,10 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+.col-sm-3 a:active{
+    color: #FFFFFF;
+    
+}
 
 /***************Entertainment music***************************************/
 .Ent_Aud{
