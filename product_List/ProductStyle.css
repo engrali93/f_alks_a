@@ -7,6 +7,7 @@
     background-image: url(img/ear1.jpg);
     background-position: center;
     text-align: center;
-    horizontal-align: middle;
+    vertical-align: middle;
+    
     color: white;
 }
