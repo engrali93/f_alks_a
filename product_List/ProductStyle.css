@@ -22,7 +22,7 @@
     align-content: center;
     justify-content: center;
 }
-.main_container .col-3{
+.main_container .col-sm-3{
     border: 2px solid blue;
     margin: 0 10px 0 10px;
 }
