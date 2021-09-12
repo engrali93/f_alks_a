@@ -27,7 +27,8 @@
     margin: 0 10px 0 10px;
 }
 .main_container img{
-    size: 100px 100px;
+   width:100%; 
+   height:auto;
 }
 
 /***************Entertainment music***************************************/
