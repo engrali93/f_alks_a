@@ -20,6 +20,7 @@
 .main_container{
     border: 2px solid red;
     align-content: center;
+    justify-content: center;
 }
 .main_container .col-3{
     border: 2px solid blue;
