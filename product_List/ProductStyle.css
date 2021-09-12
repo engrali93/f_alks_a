@@ -123,15 +123,15 @@
 @media only screen and (max-device-width : 500px)  
 {
     .col-sm-3 a:hover{
-        
+        text-decoration: underline!important;
         color: goldenrod!important
     }
     .col-sm-3 a:active{
-    
+        text-decoration: underline!important;
         color: goldenrod!important
     }  
     .col-sm-3 a:focus{
-    
+        text-decoration: underline!important;
         color: goldenrod!important
     }  
 }
