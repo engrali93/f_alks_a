@@ -7,7 +7,9 @@
     background-image: url(img/ear1.jpg);
     background-position: center;
     text-align: center;
-    vertical-align: middle!important;
     
     color: white;
+}
+.game_audio h1{
+    vertical-align: middle!important;
 }
