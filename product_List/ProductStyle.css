@@ -43,8 +43,8 @@
     text-decoration: none;
     
 }
-.col-sm-3 a:focus{
-    
+.col-sm-3 a:hover{
+    text-decoration: underline!important;
     color: goldenrod!important
 }
 
