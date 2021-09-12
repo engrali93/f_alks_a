@@ -21,10 +21,11 @@
     border: 2px solid red;
     align-content: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .main_container .col-sm-3{
     border: 2px solid blue;
-    margin: 0 10px 10px 10px;
+    margin: 20px 10px 20px 10px;
 }
 .main_container img{
    width:100%; 
