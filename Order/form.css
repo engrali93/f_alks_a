@@ -27,7 +27,7 @@ body
 	box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.466) ;
 	border-radius: 40px;
     border: 0;
-	width: 70vw;
+	
 }
 #reused_form .row{
 	margin-top: 10px;
@@ -44,5 +44,11 @@ body
 	/* styles for browsers larger than 960px; */
 	.col-6{
 	  width:60%;
+	}
+  }
+  @media only screen and (max-width: 500px) {
+	/* styles for browsers larger than 960px; */
+	#form_container{
+		width:90vw;
 	}
   }
