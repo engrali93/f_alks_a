@@ -3,8 +3,8 @@
 }
 .game_audio{
     height:80px;
-    width:100%;
+    width:120%;
     background-image: url(img/ear1.jpg);
     background-position: center;
-    clip-path: polygon(0 30%, 100% 30%, 100% 86%, 0 86%);
+    
 }
