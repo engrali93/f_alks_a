@@ -2,10 +2,10 @@
     border-bottom: 2px solid rgba(139, 139, 139, 0.15);
 }
 .game_audio{
-    height:80px;
-    width:120%;
+    height:120px;
+    width:100%;
     background-image: url(img/ear1.jpg);
     background-position: center;
-    background-size: auto;
+    
     
 }
