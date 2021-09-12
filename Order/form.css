@@ -51,4 +51,7 @@ body
 	#form_container{
 		width:90vw;
 	}
+	.col-6{
+		width:70%;
+	  }
   }
