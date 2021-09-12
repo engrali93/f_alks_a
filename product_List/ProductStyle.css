@@ -119,3 +119,11 @@
 
 
 /******************************************************/
+
+@media only screen and (max-device-width : 500px)  
+{
+    .col-sm-3 a:hover{
+    
+        color: goldenrod!important
+    }  
+}
