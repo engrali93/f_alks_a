@@ -32,9 +32,12 @@
    width:100%; 
    height:auto;
 }
-.main_container h2, a{
-    
+.main_container h2{
     color: black;
+    text-decoration: none;
+}
+.col-sm-3 a{
+    color: #FFFFFF;
     text-decoration: none;
 }
 
