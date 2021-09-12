@@ -12,6 +12,7 @@
 }
 .game_audio h1{
     display: inline-block;
+    line-height: 80px;
     vertical-align: middle!important;
     border: 2px solid red;
     height:100%;
