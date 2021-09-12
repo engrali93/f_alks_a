@@ -24,7 +24,7 @@
 }
 .main_container .col-sm-3{
     border: 2px solid blue;
-    margin: 0 10px 0 10px;
+    margin: 0 10px 10px 10px;
 }
 .main_container img{
    width:100%; 
