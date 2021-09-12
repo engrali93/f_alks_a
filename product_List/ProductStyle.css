@@ -15,6 +15,78 @@
     display: inline-block;
     line-height: 80px;
     vertical-align: middle!important;
-    
     height:100%;
 }
+
+
+/***************Entertainment music***************************************/
+.Ent_Aud{
+    border-bottom: 2px solid rgba(139, 139, 139, 0.15);
+}
+.ent_audio{
+    height:80px;
+    width:100%;
+    background-image: url(img/ear1.jpg);
+    background-position: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.472);
+    
+    color: white;
+}
+.ent_audio h1{
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle!important;
+    height:100%;
+}
+
+
+/********************gaming keyboard**************************************/
+
+.Gam_Key{
+    border-bottom: 2px solid rgba(139, 139, 139, 0.15);
+}
+.game_key{
+    height:80px;
+    width:100%;
+    background-image: url(img/ear1.jpg);
+    background-position: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.472);
+    
+    color: white;
+}
+.game_key h1{
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle!important;
+    height:100%;
+}
+
+
+
+/******************gaming keyboard and mouse set************************/
+
+.Gam_KSet{
+    border-bottom: 2px solid rgba(139, 139, 139, 0.15);
+}
+.game_key_set{
+    height:80px;
+    width:100%;
+    background-image: url(img/ear1.jpg);
+    background-position: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.472);
+    
+    color: white;
+}
+.game_key_set h1{
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle!important;
+    height:100%;
+}
+
+
+
+/******************************************************/
