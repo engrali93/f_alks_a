@@ -123,18 +123,14 @@
 @media only screen and (max-device-width : 500px)  
 {
     .col-sm-3 a:hover{
-        text-decoration: underline!important;
-        text-decoration-thickness: 2px;
-        color: goldenrod!important
+        
+        border-bottom:  2px solid goldenrod;
+       
     }
     .col-sm-3 a:active{
-        text-decoration: underline!important;
-        text-decoration-thickness: 2px;
-        color: goldenrod!important
+        border-bottom:  2px solid goldenrod;
     }  
     .col-sm-3 a:focus{
-        text-decoration: underline!important;
-        text-decoration-thickness: 2px;
-        color: goldenrod!important
+        border-bottom:  2px solid goldenrod;
     }  
 }
