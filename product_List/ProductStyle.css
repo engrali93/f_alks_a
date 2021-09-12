@@ -26,6 +26,7 @@
 .main_container .col-sm-3{
     border: 2px solid blue;
     margin: 30px 10px 30px 10px;
+    text-align: center;
 }
 .main_container img{
    width:100%; 
