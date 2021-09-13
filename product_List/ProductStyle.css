@@ -132,12 +132,9 @@
         text-decoration: underline!important;
         color: rgb(0, 255, 98) !important;
         font-weight: bold !important;
+        border-bottom: 200px solid black !important;
     }  
-    .col-sm-3 a:focus{
-        text-decoration: underline!important;
-        color: rgb(255, 0, 200) !important;
-        font-weight: bold !important;
-    }
+
     .col-sm-3{
         border: 2px solid red;
     }  
