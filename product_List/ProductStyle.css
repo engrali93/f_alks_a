@@ -124,11 +124,11 @@
 {
     .col-sm-3 a:hover{
         
-        border-bottom:  10px solid goldenrod;
+        border-bottom:  10px solid rgb(32, 218, 57);
        
     }
     .col-sm-3 a:active{
-        border-bottom:  10px solid goldenrod;
+        border-bottom:  10px solid rgb(60, 32, 218);
     }  
     .col-sm-3 a:focus{
         border-bottom:  10px solid goldenrod;
