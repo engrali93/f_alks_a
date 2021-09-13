@@ -124,13 +124,16 @@
 {
     .col-sm-3 a:hover{
        
-        border-bottom:  10px solid rgb(32, 218, 57)!important;
+        text-decoration: underline!important;
        
     }
     .col-sm-3 a:active{
-        border-bottom:  10px solid rgb(60, 32, 218)!important;
+        text-decoration: underline!important;
     }  
     .col-sm-3 a:focus{
-        border-bottom:  10px solid rgb(218, 32, 32)!important;
+        text-decoration: underline!important;
+    }
+    .col-sm-3{
+        border: 2px solid red;
     }  
 }
