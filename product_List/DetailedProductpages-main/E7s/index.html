@@ -18,10 +18,21 @@
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+           $(function(){
+              // $('#header').load('../navbarproduct/navbar.html');
+              // $('#MobileFoot').load('../footproduct/BottomFoot.html');
+               $('#header').load('/Component/navbar.html');
+               $('#MobileFoot').load('/MobileComp/BottomFoot.html');
+           });
+  </script>
 </head>
 
 <body>
-
+   <!-----------------Navigaton Bar------------------------------->
+   <div id="header"></div>
+   <!------------------------------------------------------------->
   <div class="card-wrapper">
     <div class="card">
       <!-- card left -->
@@ -139,6 +150,9 @@
       </div>
     </div>
   </div>
+  <!----------------MObile footer--------------------------------->
+  <div class="FootMob" id="MobileFoot"></div>
+
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
