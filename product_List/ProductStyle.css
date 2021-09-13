@@ -45,7 +45,7 @@
 }
 .col-sm-3 a:hover{
     text-decoration: underline!important;
-    color: goldenrod!important
+    color: rgb(0, 0, 0)!important
 }
 
 /***************Entertainment music***************************************/
@@ -122,20 +122,13 @@
 
 @media only screen and (max-device-width : 600px)  
 {
-    .col-sm-3 a:hover{
-       
-        text-decoration: underline!important;
-        color: rgb(255, 0, 0) !important;
-        font-weight: bold !important;
-    }
+  
     .col-sm-3 a:active{
         text-decoration: underline!important;
-        color: rgb(0, 255, 98) !important;
+        color: black !important;
         font-weight: bold !important;
-        border-bottom: 100px solid black !important;
+       
     }  
 
-    .col-sm-3{
-        border: 2px solid red;
-    }  
+   
 }
