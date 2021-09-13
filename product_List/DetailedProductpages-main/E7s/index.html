@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Product Card/Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+
+
+  <!-- Bootstrap CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="card-wrapper">
+    <div class="card">
+      <!-- card left -->
+      <div class="product-imgs">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/Airphones_01.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_02.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_03.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_04.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_05.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_06.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_11.jpg" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <br>
+        <br>
+        <div thumbsSlider="" class="swiper mySwiper2">
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/Airphones_01.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_02.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_03.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_04.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_05.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_06.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Airphones_11.jpg" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- card right -->
+      <div class="product-content">
+        <h2 class="product-title">E7s Airphones</h2>
+        <a href="#" class="product-link">Smart buds</a>
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>4.7(5)</span>
+        </div>
+        <div class="product-price">
+          <div class="salecounter" id="countdown">
+            <h1 id="headline">Limited Time Offer</h1>
+            <li><span id="days"></span>Day</li>
+            <li><span id="hours"></span>Hour</li>
+            <li><span id="minutes"></span>Min</li>
+            <li><span id="seconds"></span>Sec</li>
+          </div>
+          <div class="last-price">Original Price: <span>Rs 2500</span></div>
+          <div class="new-price">Sale Price: <span>Rs 2000</span></div>
+        </div>
+        <div class="product-detail">
+          <h2>About this item: </h2>
+          <p>
+            Specifications: <br>
+            The earphones adopts Bluetooth 5.0 chip, which has characteristics of stable transmission and low power
+            consumption.Earphones built-in rechargeable battery with a long standby time.
+            Ergonomic earphones are comfortable to wear and they are very suitable for running, walking or other
+            sports.<br> <br>
+            Battery Capacity: <br>45mAh for Single Earphone, 300mAh for Charging Box (Included)<br>
+            Music Time: 4 Hours (Depending on Volume)<br>
+            Talk Time: 3 Hours (Depending on Volume)<br>
+            Waterproof Level: IPX5<br><br>
+            Package Includes:<br>
+            1 Pair of Wireless Earphones<br>
+            1 x Charging Box<br>
+            1 x USB Charging Cable<br>
+            1 x User Manual
+          </p>
+          <ul>
+            <li>Color: <span>Black, White</span></li>
+            <li>Available: <span>in stock</span></li>
+            <li>Category: <span>Airphones</span></li>
+          </ul>
+        </div>
+        <div class="OrderNow">
+          <button class="btn btn-success btn-lg btn-block">Order via Whatsapp</button>
+          <button class="btn btn-primary btn-lg btn-block">Order via Email</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
