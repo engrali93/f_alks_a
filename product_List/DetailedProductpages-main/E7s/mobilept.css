@@ -9,7 +9,7 @@ and (max-device-width : 821px)  {
     .card-wrapper {
         height: auto;
         width: auto;
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
     }
