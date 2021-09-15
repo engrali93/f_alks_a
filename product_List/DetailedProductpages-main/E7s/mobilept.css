@@ -37,7 +37,7 @@ and (max-device-width : 821px)  {
 
 
     .product-detail{
-        margin-top: 20px;
+        margin-top: 10vw;
     }
     .product-detail p{
         font-size: 40px!important;
