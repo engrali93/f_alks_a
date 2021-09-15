@@ -92,11 +92,15 @@ and (max-device-width : 821px)  {
     .spaceadd{
         display: block!important;
     }
+    .OrderNow{
+        margin: 20px 0 15px 0;
+    }
     .OrderNow .btn{
         font-size:40px;
     }
     .OrderNow .btn-success{
-        margin-right: 10px;
+        
+        margin-right: 15px;
     }
 /**
     .mySwiper2 {
