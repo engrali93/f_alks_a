@@ -157,7 +157,7 @@ body {
     font-size: 0.9rem;
 }
 
-.product-detail .checkpoint ul li {
+ .checkpoint ul li {
     margin: 0;
     list-style: none;
     background: url(images/checked.png) left center no-repeat;
