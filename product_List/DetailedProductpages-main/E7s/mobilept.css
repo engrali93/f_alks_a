@@ -33,6 +33,12 @@ and (max-device-width : 821px)  {
     .product-detail ul li{
         font-size: 45px!important;
         font-family: bold !important;
+        
+    }
+    .checkpoint ul li {
+      
+        background-size: 36px!important;
+      
     }
     .OrderNow {
         width: 100%;
