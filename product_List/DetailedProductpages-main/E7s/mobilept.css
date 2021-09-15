@@ -42,11 +42,11 @@ and (max-device-width : 821px)  {
     }
     .product-detail h4{
         font-size: 40px!important;
-        font-family: bold !important;
+        font-weight: bold !important;
     }
     .product-detail h2{
         font-size: 45px!important;
-        font-family: bold !important;
+        font-weight: bold !important;
     }
     .product-detail ul li{
         font-size: 40px!important;
