@@ -104,12 +104,12 @@ and (max-device-width : 821px)  {
     }
 
     .swiper-button-next {
-        display: none;
+        display: none!important;
     
     }
     
     .swiper-button-prev {
-        display: none;
+        display: none!important;
     }
     /***************************/
     
