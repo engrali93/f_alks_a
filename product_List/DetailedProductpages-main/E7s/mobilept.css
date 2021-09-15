@@ -30,6 +30,10 @@ and (max-device-width : 821px)  {
         font-size: 45px!important;
         font-family: bold !important;
     }
+    .product-detail ul li{
+        font-size: 45px!important;
+        font-family: bold !important;
+    }
     .OrderNow {
         width: 100%;
         display: block;
@@ -60,7 +64,6 @@ and (max-device-width : 821px)  {
     }
     .spaceadd{
         display: block!important;
-      
     }
 /**
     .mySwiper2 {
