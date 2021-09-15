@@ -150,6 +150,7 @@ body {
 .product-detail p {
     font-size: 0.9rem;
     opacity: 0.9;
+    text-align: justify;
 }
 
 .product-detail ul {
