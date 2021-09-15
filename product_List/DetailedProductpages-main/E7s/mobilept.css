@@ -103,6 +103,14 @@ and (max-device-width : 821px)  {
         
         margin-right: 15px;
     }
+    .OrderNow .btn .fab{
+        font-size: 40px;
+        margin: 0 5px 0 5px;
+    }
+    .OrderNow .btn .far{
+        font-size: 40px;
+        margin: 0 5px 0 5px;
+    }
 
     .swiper-button-next {
         display: none!important;
