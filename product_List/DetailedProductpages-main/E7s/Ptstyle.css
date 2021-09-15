@@ -190,6 +190,8 @@ body {
 .swiper-pagination {
 position: inherit;
     opacity: 0.5;
+    margin-top: 15px;
+    font-size:10px;
 }
 
 .swiper-pagination-bullet-active {
