@@ -48,8 +48,8 @@ and (max-device-width : 821px)  {
 
     .mySwiper2 img {
 
-        width: 70px;
-        height: 70px;
+        width: 70px!important;
+        height: 70px!important;
         object-fit: cover;
         border: 3rem;
     }
