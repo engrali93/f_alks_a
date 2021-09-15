@@ -28,9 +28,10 @@ and (max-device-width : 821px)  {
     #countdown h1{
         font-size:5vw!important;
     }
-    span{
+    .salecounter li{
         font-size:7vw!important;
     }
+
 
     .product-detail p{
         font-size: 40px!important;
