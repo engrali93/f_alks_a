@@ -97,6 +97,7 @@ and (max-device-width : 821px)  {
     }
     .OrderNow .btn{
         font-size:40px!important;
+        box-shadow: 0px 0px 5px 6px rgba(0, 0, 0, 0.404)!important;
     }
     .OrderNow .btn-success{
         
