@@ -162,11 +162,12 @@ body {
     margin: 0;
     list-style: none;
    
-    padding-left: 1rem;
-    margin: 0.4rem 0;
+   
+    
     font-weight: 600;
     opacity: 1;
 }
+.checkpoint ul li 
 
 .product-detail ul li  {
     font-weight: 600;
