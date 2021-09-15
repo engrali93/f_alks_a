@@ -262,20 +262,20 @@ and (max-device-width : 821px)  {
     }
 
     .card-wrapper {
-        height: auto;
-        width: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: auto!important;
+        width: auto!important;
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
     }
 
     .product-content {
-        margin-top: 40px;
-        padding-top: 15px;
+        margin-top: 40px!important;
+        padding-top: 15px!important;
     }
 
     .OrderNow {
-        width: 100%;
+        width: 100%!important;
         display: block;
         padding: 5px;
 
