@@ -157,12 +157,12 @@ body {
     font-size: 0.9rem;
 }
 
-.product-detail ul li {
+.product-detail .checkpoint ul li {
     margin: 0;
     list-style: none;
     background: url(images/checked.png) left center no-repeat;
     background-size: 18px;
-    padding-left: 1.7rem;
+    padding-left: 1rem;
     margin: 0.4rem 0;
     font-weight: 600;
     opacity: 0.9;
