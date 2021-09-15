@@ -95,6 +95,9 @@ and (max-device-width : 821px)  {
     .OrderNow .btn{
         font-size:40px;
     }
+    .OrderNow .btn-success{
+        margin-right: 10px;
+    }
 /**
     .mySwiper2 {
         position: relative;
