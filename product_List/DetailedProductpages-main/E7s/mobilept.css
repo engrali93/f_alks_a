@@ -25,7 +25,7 @@ and (max-device-width : 821px)  {
     .product-link , .product-rating, .product-price{
         font-size: 5vw!important;
     }
-    #headline{
+    #countdown{
         font-size:5vw!important;
     }
     .product-detail p{
