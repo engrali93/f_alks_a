@@ -168,7 +168,7 @@ body {
     opacity: 1;
 }
 .checkpoint ul li i{
-    color:greenyellow;
+    color:rgb(0, 255, 0);
     padding-right: 5px;
 }
 
