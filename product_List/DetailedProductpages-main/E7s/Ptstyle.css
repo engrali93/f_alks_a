@@ -262,7 +262,7 @@ body {
      
 }
 .OrderNow .btn-success{
-    color: #25D366!important;
+    background-color: #25D366!important;
 }
 .OrderNow .btn .fab{
     font-size: 30px;
