@@ -149,7 +149,7 @@ body {
 
 .product-detail p {
     font-size: 0.9rem;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .product-detail ul {
@@ -173,7 +173,7 @@ body {
 }
 .product-detail ul li span {
     font-weight: 400;
-    opacity:0.8;
+    opacity:0.9;
 }
 
 .swiper {
