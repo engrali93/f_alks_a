@@ -167,7 +167,9 @@ body {
     font-weight: 600;
     opacity: 0.9;
 }
-
+.product-detail ul li  {
+    font-weight: 600;
+}
 .product-detail ul li span {
     font-weight: 400;
 }
