@@ -282,31 +282,31 @@ and (max-device-width : 821px)  {
     }
 
     .swiper {
-        width: 400px;
-        height: 350px;
+        width: 400px!important;
+        height: 350px!important;
 
 
     }
 
     .mySwiper2 {
-        position: relative;
-        height: 20%;
+        position: relative!important;
+        height: 20%!important;
 
     }
 
     .mySwiper2 img {
 
-        width: 50px;
-        height: 50px;
-        object-fit: cover;
-        border: 3rem;
+        width: 50px!important;
+        height: 50px!important;
+        object-fit: cover!important;
+        border: 3rem!important;
     }
 
     .mySwiper2 .swiper-slide {
 
-        width: 15%;
-        height: 20%;
-        opacity: 0.5;
+        width: 15%!important;
+        height: 20%!important;
+        opacity: 0.5!important;
     }
 
     /***************************/
