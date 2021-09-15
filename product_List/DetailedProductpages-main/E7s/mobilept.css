@@ -42,7 +42,7 @@ and (max-device-width : 821px)  {
 
     .mySwiper2 {
         position: relative;
-        height: 20vh;
+        height: 20vh!important;
 
     }
 
