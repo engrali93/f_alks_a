@@ -19,6 +19,9 @@ and (max-device-width : 821px)  {
         padding-top: 15px;
        
     }
+    .product-title h1{
+            font-size: 20vh!important;
+    }
     .product-detail p{
         font-size: 40px!important;
     }
