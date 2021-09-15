@@ -304,10 +304,10 @@ body {
         display: block;
         position: relative;
         margin: auto;
-        border: 1px solid black;
+       
     }
     .product_web img{
-        border: 1px solid red;
+      
         width: 70vw;
         height: auto;
     }
