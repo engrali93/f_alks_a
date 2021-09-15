@@ -120,7 +120,7 @@ body {
 }
 
 .salecounter li {
-    font-size: 10px !important;
+    font-size: 12px;
     margin-bottom: 2px;
     display: inline-block;
     list-style-type: none;
