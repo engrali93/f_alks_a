@@ -278,11 +278,13 @@ body {
     margin: 0 5px 0 5px;
 }
 .product_web{
+    display: block;
     margin: auto;
     border: 1px solid black;
 }
 .product_web img{
     border: 1px solid red;
+    margin: auto;
 }
 @media screen and (min-width: 992px) {
     .card {
