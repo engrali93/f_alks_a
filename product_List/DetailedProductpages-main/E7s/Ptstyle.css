@@ -261,6 +261,9 @@ body {
         cursor: pointer;
      
 }
+.OrderNow .btn-success{
+    color: #25D366!important;
+}
 .OrderNow .btn .fab{
     font-size: 30px;
     margin: 0 5px 0 5px;
