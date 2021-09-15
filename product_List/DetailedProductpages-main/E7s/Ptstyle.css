@@ -239,7 +239,9 @@ body {
 .swiper-button-prev {
     color: rgb(31, 122, 207);
 }
-
+.spaceadd{
+    display: none;
+}
 
 @media screen and (min-width: 992px) {
     .card {

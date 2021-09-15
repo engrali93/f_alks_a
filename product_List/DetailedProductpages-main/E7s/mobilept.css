@@ -58,6 +58,10 @@ and (max-device-width : 821px)  {
         width: 20px!important;
         height: 20px!important;
     }
+    .spaceadd{
+        display: block;
+        height:40px;
+    }
 /**
     .mySwiper2 {
         position: relative;
