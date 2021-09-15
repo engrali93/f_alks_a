@@ -59,7 +59,7 @@ and (max-device-width : 821px)  {
         height: 20px!important;
     }
     .spaceadd{
-        display: block;
+        display: block!important;
       
     }
 /**
