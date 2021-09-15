@@ -122,9 +122,9 @@ and (max-device-width : 821px)  {
     }
     .product_web img{
   
-        width: 90vw;
+        width: 90vw!important;
         height: auto;
-        margin: 30px 0 30px 0;
+        margin: 30px 0 30px 0!important;
     }
     /***************************/
     
