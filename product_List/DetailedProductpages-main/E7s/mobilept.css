@@ -43,6 +43,11 @@ and (max-device-width : 821px)  {
     .mySwiper2{
         display: none !important;
     }
+    .swiper-pagination-bullet {
+    
+        width: 20px!important;
+        height: 20px!important;
+    }
 /**
     .mySwiper2 {
         position: relative;
