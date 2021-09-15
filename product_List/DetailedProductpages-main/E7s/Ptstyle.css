@@ -167,7 +167,10 @@ body {
     font-weight: 600;
     opacity: 1;
 }
-.checkpoint ul li 
+.checkpoint ul li i{
+    color:greenyellow;
+    padding-right: 5px;
+}
 
 .product-detail ul li  {
     font-weight: 600;
