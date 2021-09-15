@@ -20,7 +20,7 @@ and (max-device-width : 821px)  {
        
     }
     .product-title{
-            font-size: 20vh!important;
+            font-size: 20vw!important;
     }
     .product-detail p{
         font-size: 40px!important;
