@@ -193,7 +193,7 @@ position: inherit;
 }
 
 .swiper-pagination-bullet-active {
-    opacity: 1;
+    opacity: 1!important;
 }
 
 .mySwiper2 {
@@ -218,7 +218,7 @@ position: inherit;
 }
 
 .mySwiper2 .swiper-slide-thumb-active {
-    opacity: 1;
+    opacity: 1!important;
 }
 
 .swiper-button-next {
