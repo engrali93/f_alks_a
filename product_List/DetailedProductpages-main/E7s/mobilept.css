@@ -36,8 +36,8 @@ and (max-device-width : 821px)  {
         height: 100%;
     }
     .mySwiper img {
-        width: 400px!important;
-        height: 350px!important;
+        width: 700px!important;
+        height: 700px!important;
     }
 
     .mySwiper2 {

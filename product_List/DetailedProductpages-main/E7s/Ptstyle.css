@@ -172,30 +172,6 @@ body {
     font-weight: 400!important;
 }
 
-@media screen and (min-width: 992px) {
-    .card {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1.8rem;
-    }
-
-    .card-wrapper {
-        height: 100vh;
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .product-content {
-        margin-top: 5px;
-    }
-
-    .swiper {
-        width: 500px;
-        height: 500px;
-    }
-}
-
 .swiper {
     width: 500px;
     height: 500px;
@@ -253,3 +229,27 @@ position: inherit;
     color: rgb(31, 122, 207);
 }
 
+
+@media screen and (min-width: 992px) {
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.8rem;
+    }
+
+    .card-wrapper {
+        height: 100vh;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-content {
+        margin-top: 5px;
+    }
+
+    .swiper {
+        width: 500px;
+        height: 500px;
+    }
+}
