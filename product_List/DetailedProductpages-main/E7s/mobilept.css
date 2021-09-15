@@ -92,6 +92,9 @@ and (max-device-width : 821px)  {
     .spaceadd{
         display: block!important;
     }
+    .OrderNow .btn{
+        font-size:40px;
+    }
 /**
     .mySwiper2 {
         position: relative;
