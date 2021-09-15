@@ -261,7 +261,7 @@ body {
         cursor: pointer;
      
 }
-.OrderNow .btn:hover, .btn:active{
+.OrderNow .btn:hover{
     
     -webkit-box-shadow: inset 0px 0px 50px 50px rgba(69,69,69,0.64); 
     box-shadow: inset 0px 0px 50px 50px rgba(69,69,69,0.64)!important;
