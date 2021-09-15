@@ -198,13 +198,12 @@ body {
 
 .swiper-pagination-bullet-active {
     opacity: 1!important;
-    width: 20px;
-    height: 20px;
+   
 }
 .swiper-pagination-bullet {
     
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
 }
 
 .mySwiper2 {
