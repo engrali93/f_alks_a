@@ -264,7 +264,7 @@ body {
 .OrderNow .btn:hover{
     
     -webkit-box-shadow: inset 0px 0px 50px 50px rgba(69,69,69,0.64); 
-    box-shadow: inset 0px 0px 50px 50px rgba(69,69,69,0.64);;
+    box-shadow: inset 0px 0px 50px 50px rgba(69,69,69,0.64)!important;
 }
 .OrderNow .btn-success{
     background-color: #25D366!important;
