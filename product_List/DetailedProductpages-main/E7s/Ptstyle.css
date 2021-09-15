@@ -165,13 +165,15 @@ body {
     padding-left: 1rem;
     margin: 0.4rem 0;
     font-weight: 600;
-    opacity: 0.9;
+    opacity: 1;
 }
+
 .product-detail ul li  {
     font-weight: 600;
 }
 .product-detail ul li span {
     font-weight: 400;
+    opacity:0.8;
 }
 
 .swiper {
