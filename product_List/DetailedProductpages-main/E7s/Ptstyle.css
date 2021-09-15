@@ -248,6 +248,10 @@ body {
     display: none;
 }
 
+.OrderNow .btn{
+    border-radius: 10%;
+}
+
 @media screen and (min-width: 992px) {
     .card {
         display: grid;
