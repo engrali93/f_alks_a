@@ -31,6 +31,9 @@ and (max-device-width : 821px)  {
     .salecounter li{
         font-size:7vw!important;
     }
+    .salecounter span{
+        font-size:7vw!important;
+    }
 
 
     .product-detail p{
