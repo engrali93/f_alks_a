@@ -284,7 +284,8 @@ body {
 }
 .product_web img{
     border: 1px solid red;
-    
+    width: 70vw;
+    height: auto;
 }
 @media screen and (min-width: 992px) {
     .card {
