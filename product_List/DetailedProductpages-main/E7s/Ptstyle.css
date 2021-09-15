@@ -261,6 +261,9 @@ body {
         cursor: pointer;
      
 }
+.OrderNow .btn:hover{
+    opacity: 0.5;
+}
 .OrderNow .btn-success{
     background-color: #25D366!important;
 }
