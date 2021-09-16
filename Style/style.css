@@ -7,8 +7,9 @@
 /********************************************/
 .Ups_sub{
     margin: auto;
+    width: 100%;
    
-    border: 1px solid black;
+    background-color: rgba(172, 170, 170, 0.425);
 }
 .Ups{
     margin: auto;
