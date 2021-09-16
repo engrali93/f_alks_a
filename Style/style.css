@@ -8,7 +8,7 @@
 .Ups_sub{
     margin: auto;
     width: 100%;
-   height: 20vw;
+   padding: 10px 0px 10px 0px;
     background-color: rgba(172, 170, 170, 0.425);
 }
 .Ups{
