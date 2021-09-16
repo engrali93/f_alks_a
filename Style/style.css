@@ -8,6 +8,7 @@
 .Ups_sub{
     margin: auto;
     justify-content: center;
+    border-top: 1px solid black;
 }
 /*************************************************/
 .containerItem{
