@@ -4,7 +4,11 @@
     padding: 0;
 
 }
-
+/********************************************/
+.Ups_sub{
+    margin: auto;
+    justify-content: center;
+}
 /*************************************************/
 .containerItem{
     position: relative;
