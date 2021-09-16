@@ -15,6 +15,9 @@
     justify-content: center;
     border: 1px solid rgb(216, 21, 21);
 }
+.upscol{
+    border: 1px solid rgb(21, 50, 216);
+}
 .Ups i{
     font-size: 40px;
 }
