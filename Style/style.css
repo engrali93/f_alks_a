@@ -19,8 +19,10 @@
     border: 1px solid rgb(21, 50, 216);
 }
 .Ups i{
+    margin-top: 5px;
     font-size: 40px;
 }
+
 /*************************************************/
 .containerItem{
     position: relative;
