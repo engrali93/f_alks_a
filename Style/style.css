@@ -13,10 +13,12 @@
 .Ups{
     margin: auto;
     justify-content: center;
-    border: 1px solid rgb(216, 21, 21);
+   
 }
-.upscol{
-    border: 1px solid rgb(21, 50, 216);
+
+.upscolc{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 .Ups i{
     margin-top: 10%;
