@@ -26,6 +26,10 @@
 .upsText h4{
     color: rgba(0, 0, 0, 0.589);
 }
+.upsText h5{
+    color: rgba(0, 0, 0, 0.589);
+    font-size: 12px
+}
 
 /*************************************************/
 .containerItem{
