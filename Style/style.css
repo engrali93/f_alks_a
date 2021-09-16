@@ -28,7 +28,8 @@
 }
 .upsText h5{
     color: rgba(0, 0, 0, 0.589);
-    font-size: 12px
+    font-size: 16px
+    font-style: italic;
 }
 
 /*************************************************/
