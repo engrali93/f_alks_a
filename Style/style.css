@@ -7,8 +7,13 @@
 /********************************************/
 .Ups_sub{
     margin: auto;
+   
+    border: 1px solid black;
+}
+.Ups{
+    margin: auto;
     justify-content: center;
-    border-top: 1px solid black;
+    border: 1px solid rgb(216, 21, 21);
 }
 /*************************************************/
 .containerItem{
