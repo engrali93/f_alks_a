@@ -8,7 +8,7 @@
 .Ups_sub{
     margin: auto;
     width: 100%;
-   padding: 10px 0px 10px 0px;
+   padding: 15px 0px 15px 0px;
     background-color: rgba(172, 170, 170, 0.425);
 }
 .Ups{
@@ -18,8 +18,8 @@
 }
 
 .upscolc{
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 2px solid rgba(65, 65, 65, 0.76);
+    border-right: 2px solid rgba(65, 65, 65, 0.76);
 }
 .Ups i{
     margin-top: 5px;
