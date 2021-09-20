@@ -39,8 +39,8 @@ var swiper = new Swiper(".mySwiper", {
         var saletimer;
         fetch('SaleInput.txt')
    .then( r => r.text() )
-   .then( t => saletimer=t)
-        let sale = saletimer,
+   .then( t => {
+        let sale = t,
     //let sale = "Sep 30, 2021 00:00:00",
         countDown = new Date(sale).getTime(),
         x = setInterval(function () {
@@ -64,4 +64,6 @@ var swiper = new Swiper(".mySwiper", {
             }
             //seconds
         }, 0)
+    })
 }());
+
