@@ -36,8 +36,11 @@ var swiper = new Swiper(".mySwiper", {
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-        fetch('SaleInput.txt').then((r)=>{r.text().then((d)=>{let CONTENT = d})})
-        let sale = processData(),
+        var saletimer;
+        fetch('SaleInput.txt')
+   .then( r => r.text() )
+   .then( t => saletimer=t)
+        let sale = saletimer,
     //let sale = "Sep 30, 2021 00:00:00",
         countDown = new Date(sale).getTime(),
         x = setInterval(function () {
@@ -62,17 +65,3 @@ var swiper = new Swiper(".mySwiper", {
             //seconds
         }, 0)
 }());
-
-function processData() {
-    var request = new XMLHttpRequest();
-    request.open('GET', 'SaleInput.txt', true);
-    request.send(null);
-    request.onreadystatechange = function () {
-        if (request.readyState === 4 && request.status === 200) {
-            var type = request.getResponseHeader('Content-Type');
-            if (type.indexOf("text") !== 1) {
-                return request.responseText;
-            }
-        }
-    }
-}
