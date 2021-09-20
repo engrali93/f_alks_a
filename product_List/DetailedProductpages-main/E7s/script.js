@@ -64,7 +64,7 @@ var swiper = new Swiper(".mySwiper", {
 }());
 
 function processData() {
-   const fs = window.require('fs')
+   const fs = require('fs')
     fs.readFile('SaleInput.txt', 'utf-8', (err, data) => {
         if (err) throw err;
         console.log(data);
