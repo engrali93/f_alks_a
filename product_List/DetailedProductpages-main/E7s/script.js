@@ -35,8 +35,8 @@ var swiper = new Swiper(".mySwiper", {
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-
-    let sale = "Sep 30, 2021 00:00:00",
+        let sale = $.csv.toObjects("SaleInput.csv"),
+    //let sale = "Sep 30, 2021 00:00:00",
         countDown = new Date(sale).getTime(),
         x = setInterval(function () {
 
