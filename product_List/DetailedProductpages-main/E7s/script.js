@@ -1,4 +1,3 @@
-import * as fs from 'fs';
 var swiper = new Swiper(".mySwiper2", {
     spaceBetween: 10,
     slidesPerView: 7,
@@ -65,7 +64,7 @@ var swiper = new Swiper(".mySwiper", {
 }());
 
 function processData() {
-   const fs = require('fs')
+   const fs = window.require('fs')
     fs.readFile('SaleInput.txt', 'utf-8', (err, data) => {
         if (err) throw err;
         console.log(data);
