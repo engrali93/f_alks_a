@@ -1,5 +1,4 @@
-var Saletimer =null;
-processData(allText);
+var Saletimer;
 var swiper = new Swiper(".mySwiper2", {
     spaceBetween: 10,
     slidesPerView: 7,
@@ -33,6 +32,15 @@ var swiper = new Swiper(".mySwiper", {
       },
 });
 (function () {
+
+    $.ajax({
+        type: "GET",
+        url: "SaleInput.txt",
+        dataType: "text",
+        success: function(data) {processData(data);}
+     });
+
+     
     const second = 1000,
         minute = second * 60,
         hour = minute * 60,
@@ -63,14 +71,6 @@ var swiper = new Swiper(".mySwiper", {
             //seconds
         }, 0)
 }());
-$(document).ready(function() {
-    $.ajax({
-        type: "GET",
-        url: "SaleInput.txt",
-        dataType: "text",
-        success: function(data) {processData(data);}
-     });
-});
 
 function processData(allText) {
      // or however many elements there are in each row
