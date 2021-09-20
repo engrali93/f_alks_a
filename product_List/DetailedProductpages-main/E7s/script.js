@@ -1,4 +1,11 @@
 var Saletimer;
+$.ajax({
+    type: "GET",
+    url: "SaleInput.txt",
+    dataType: "text",
+    success: function(data) {processData(data);}
+ });
+ 
 var swiper = new Swiper(".mySwiper2", {
     spaceBetween: 10,
     slidesPerView: 7,
@@ -63,12 +70,7 @@ var swiper = new Swiper(".mySwiper", {
             //seconds
         }, 0)
 }());
-$.ajax({
-    type: "GET",
-    url: "SaleInput.txt",
-    dataType: "text",
-    success: function(data) {processData(data);}
- });
+
 function processData(allText) {
      // or however many elements there are in each row
     var allTextLines = allText.split(/\r\n|\n/);
