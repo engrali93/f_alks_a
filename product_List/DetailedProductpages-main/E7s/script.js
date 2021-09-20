@@ -1,4 +1,5 @@
 var Saletimer =null;
+processData(allText);
 var swiper = new Swiper(".mySwiper2", {
     spaceBetween: 10,
     slidesPerView: 7,
