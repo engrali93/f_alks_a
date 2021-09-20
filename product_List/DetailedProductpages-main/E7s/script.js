@@ -25,10 +25,10 @@ var swiper = new Swiper(".mySwiper", {
     keyboard: {
         enabled: true,
         onlyInViewport: false,
-      },
-      mousewheel: {
+    },
+    mousewheel: {
         invert: true,
-      },
+    },
 });
 (function () {
 
@@ -36,34 +36,32 @@ var swiper = new Swiper(".mySwiper", {
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-        var saletimer;
-        fetch('SaleInput.txt')
-   .then( r => r.text() )
-   .then( t => {
-        let sale = t,
-    //let sale = "Sep 30, 2021 00:00:00",
-        countDown = new Date(sale).getTime(),
-        x = setInterval(function () {
+    fetch('SaleInput.txt')
+        .then(r => r.text())
+        .then(t => {
+            let sale = t,
+                //let sale = "Sep 30, 2021 00:00:00",
+                countDown = new Date(sale).getTime(),
+                x = setInterval(function () {
 
-            let now = new Date().getTime(),
-                distance = countDown - now;
+                    let now = new Date().getTime(),
+                        distance = countDown - now;
 
-            document.getElementById("days").innerText = Math.floor(distance / (day)),
-                document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-                document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-                document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+                    document.getElementById("days").innerText = Math.floor(distance / (day)),
+                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
 
-            //do something later when date is reached
-            if (distance < 0) {
-                headline = document.getElementById("headline");
-                countdown = document.getElementById("countdown");
-                countdown.style.display = "none";
-                headline.style.display = "none";
+                    //do something later when date is reached
+                    if (distance < 0) {
+                        headline = document.getElementById("headline");
+                        countdown = document.getElementById("countdown");
+                        countdown.style.display = "none";
+                        headline.style.display = "none";
 
-                clearInterval(x);
-            }
-            //seconds
-        }, 0)
-    })
+                        clearInterval(x);
+                    }
+                    //seconds
+                }, 0)
+        })
 }());
-
