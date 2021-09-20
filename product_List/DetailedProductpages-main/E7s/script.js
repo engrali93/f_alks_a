@@ -35,7 +35,7 @@ var swiper = new Swiper(".mySwiper", {
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-        let sale = $.csv.toObjects("SaleInput.csv"),
+        let sale = processFile(),
     //let sale = "Sep 30, 2021 00:00:00",
         countDown = new Date(sale).getTime(),
         x = setInterval(function () {
@@ -60,3 +60,18 @@ var swiper = new Swiper(".mySwiper", {
             //seconds
         }, 0)
 }());
+function processFile(){
+    var file = document.querySelector("SaleInput.csv").files[0];
+    var reader = new FileReader();
+    reader.readAsText(file);
+    reader.onload = function(event) {
+
+        //get the file.
+        var csv = event.target.result;
+    
+        //split and get the rows in an array
+        saleTime = csv.split('\n');
+    
+      }
+}
+var saleTime= null;
