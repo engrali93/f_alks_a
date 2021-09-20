@@ -1,3 +1,4 @@
+var Saletimer =null;
 var swiper = new Swiper(".mySwiper2", {
     spaceBetween: 10,
     slidesPerView: 7,
@@ -35,7 +36,7 @@ var swiper = new Swiper(".mySwiper", {
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-        var Saletimer =null ;
+        
         let sale = Saletimer,
     //let sale = "Sep 30, 2021 00:00:00",
         countDown = new Date(sale).getTime(),
@@ -73,7 +74,7 @@ $(document).ready(function() {
 function processData(allText) {
      // or however many elements there are in each row
     var allTextLines = allText.split(/\r\n|\n/);
-    var entries = allTextLines[0].split(' ');
-    var lines = [];
+    var entries = allTextLines[0];
+    Saletimer= entries;
 
 }
