@@ -35,7 +35,7 @@ var swiper = new Swiper(".mySwiper", {
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-        var Saletimer =readTextFile("file:SaleInput.txt");
+        var Saletimer =null ;
         let sale = Saletimer,
     //let sale = "Sep 30, 2021 00:00:00",
         countDown = new Date(sale).getTime(),
@@ -61,20 +61,19 @@ var swiper = new Swiper(".mySwiper", {
             //seconds
         }, 0)
 }());
-function readTextFile(file)
-{
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, false);
-    rawFile.onreadystatechange = function ()
-    {
-        if(rawFile.readyState === 4)
-        {
-            if(rawFile.status === 200 || rawFile.status == 0)
-            {
-                var allText = rawFile.responseText;
-                alert(allText);
-            }
-        }
-    }
-    rawFile.send(null);
+$(document).ready(function() {
+    $.ajax({
+        type: "GET",
+        url: "SaleInput.txt",
+        dataType: "text",
+        success: function(data) {processData(data);}
+     });
+});
+
+function processData(allText) {
+     // or however many elements there are in each row
+    var allTextLines = allText.split(/\r\n|\n/);
+    var entries = allTextLines[0].split(' ');
+    var lines = [];
+
 }
