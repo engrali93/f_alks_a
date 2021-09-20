@@ -61,7 +61,7 @@ var swiper = new Swiper(".mySwiper", {
         }, 0)
 }());
 function processFile(){
-    var file = document.querySelector("SaleInput.csv").files[0];
+    var file = "SaleInput.csv";
     var reader = new FileReader();
     reader.readAsText(file);
     reader.onload = function(event) {
