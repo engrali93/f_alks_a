@@ -31,14 +31,14 @@ var swiper = new Swiper(".mySwiper", {
         invert: true,
       },
 });
-(function Sale(Saletime) {
+(function Sale(Saletimer) {
 
     const second = 1000,
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
         
-        let sale = Saletime,
+        let sale = Saletimer,
     //let sale = "Sep 30, 2021 00:00:00",
         countDown = new Date(sale).getTime(),
         x = setInterval(function () {
@@ -63,19 +63,19 @@ var swiper = new Swiper(".mySwiper", {
             //seconds
         }, 0)
 }());
-$(document).ready(function() {
+
 $.ajax({
     type: "GET",
     url: "SaleInput.txt",
     dataType: "text",
     success: function(data) {processData(data);}
  });
-});
+
 function processData(allText) {
      // or however many elements there are in each row
     var allTextLines = allText.split(/\r\n|\n/);
     var entries = allTextLines[0];
-    Saletimer= entries;
+    var Saletimer= entries;
     Sale(Saletimer)
 
 }
