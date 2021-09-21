@@ -36,7 +36,7 @@ var swiper = new Swiper(".mySwiper", {
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-    fetch('/Sale_Time/SaleInput.txt')
+    fetch("/Sale_Time/SaleInput.txt")
         .then(r => r.text())
         .then(t => {
             let sale = t,
