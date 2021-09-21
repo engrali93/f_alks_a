@@ -12,7 +12,7 @@
     background-color: rgba(172, 170, 170, 0.425);
     animation: myAnim 2s ease 0s 1 normal forwards;
 }
-/*******************************/
+/*****************************
 @keyframes myAnim {
     0% {
       transform: scale3d(1, 1, 1);
@@ -41,7 +41,7 @@
     100% {
       transform: scale3d(1, 1, 1);
     }
-  }
+  } **/
 
 /*********************************/
 
