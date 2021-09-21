@@ -198,4 +198,7 @@ font-size: 18px;
 .white_footer_section{
     margin-bottom: 10px;
 }
+.spaceft{
+    display: block;
+}
 }
