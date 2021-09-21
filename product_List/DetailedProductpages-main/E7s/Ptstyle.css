@@ -287,7 +287,11 @@ body {
   
     width: 70vw;
     height: auto;
-    margin: 20px 0 20px 0;
+   
+}
+.ptWeb{
+     
+    margin: 0 0 0 0 !important;
 }
 @media screen and (min-width: 992px) {
     .card {
