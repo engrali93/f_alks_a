@@ -46,9 +46,11 @@
 /*********************************/
 
 
+.row{
+    margin-right: 0px !important;
+}
 
-
-.Ups{
+.Ups {
    
     justify-content: center;
     margin-right: 0px;
