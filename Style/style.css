@@ -6,7 +6,7 @@
 }
 /********************************************/
 .Ups_sub{
-   
+    margin: auto;
     width: 100%;
    padding: 15px 0px 15px 0px;
     background-color: rgba(172, 170, 170, 0.425);
