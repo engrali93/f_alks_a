@@ -287,7 +287,7 @@ body {
   
     width: 70vw;
     height: auto;
-   
+   border: 5px solid red;
 }
 @media screen and (min-width: 992px) {
     .card {
