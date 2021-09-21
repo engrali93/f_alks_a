@@ -1,0 +1,57 @@
+html{
+	height:100%;
+}
+
+
+body
+{
+
+	background-image: url("images/Picture2.png");
+	background-size: 50px 100px;
+	background-repeat: repeat;
+	height:100%;
+	width:100%;
+}
+.container{
+	margin-top:35px;
+	padding-bottom: 35px;
+
+}
+.head{
+	margin-top:25px!important; 
+	
+}
+#form_container
+{
+	background:rgb(251, 251, 251);
+	box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.466) ;
+	border-radius: 40px;
+    border: 0;
+	
+}
+#reused_form .row{
+	margin-top: 10px;
+}	
+.crossIC{
+	text-align:right; 
+	font-size:25px;  
+	
+  }
+  .crossIC .fas{
+	color:red;
+  }
+  @media only screen and (min-width: 990px) {
+	/* styles for browsers larger than 960px; */
+	.col-6{
+	  width:60%;
+	}
+  }
+  @media only screen and (max-width: 500px) {
+	/* styles for browsers larger than 960px; */
+	#form_container{
+		width:90vw;
+	}
+	.col-6{
+		width:60%;
+	  }
+  }
