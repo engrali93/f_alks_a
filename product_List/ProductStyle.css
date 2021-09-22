@@ -125,7 +125,7 @@
 {
     .pdRow {
         border: 2px solid blue;
-        width:fit-content; 
+        width:fit-content!important; 
         height: auto;
     }
     .main_container img{
