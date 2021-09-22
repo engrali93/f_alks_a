@@ -40,8 +40,9 @@
     
 }
 .pdRow h6 {
-    color: rgb(6, 139, 1);
+    color: rgb(0, 38, 255);
     font-size: 22px;
+    font-weight: bold;
     font-family: 'Poppins', sans-serif !important;
 }
 .pdRow h6 span{
