@@ -146,6 +146,14 @@
         width:fit-content!important; 
         height: auto;
     }
+    .pdRow h6 {
+      
+        font-size: 32px!important;
+       
+    }
+    .pdRow h6 span{
+        font-size: 28px!important;
+     }
     .main_container img{
         width:40vw; 
         height:auto;
