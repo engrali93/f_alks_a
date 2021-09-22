@@ -36,6 +36,7 @@
 }
 .pdRow {
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.376);
+    border-radius: 10px;
     
 }
 .main_container h5{
