@@ -32,7 +32,11 @@
 .main_container img{
    width:100%; 
    height:auto;
-   border: 2px solid red;
+  
+}
+.pdRow {
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.376);
+    
 }
 .main_container h5{
     color: rgb(26, 25, 25);
@@ -124,14 +128,14 @@
 @media only screen and (max-device-width : 600px)  
 {
     .pdRow {
-        border: 2px solid blue;
+       
         width:fit-content!important; 
         height: auto;
     }
     .main_container img{
         width:40vw; 
         height:auto;
-        border: 2px solid red;
+       
      }
     .col-sm-3 a:active{
         text-decoration: underline!important;
