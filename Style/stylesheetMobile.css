@@ -19,6 +19,9 @@ and (max-device-width : 821px)  {
     .container-fluid li{
         font-size: 50px !important;
     }
+ .kart{
+     display: none !important;
+ }   
 /*************************************/
 /**Seller BEst***/
 /**********************************/
