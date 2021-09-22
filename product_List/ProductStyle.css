@@ -42,7 +42,7 @@
 .pdRow h5 span{
     font-size: 18px;
     color: red;
-    weight: bold;
+    font-weight: bold;
     text-decoration: line-through;
 }
 .main_container h5{
