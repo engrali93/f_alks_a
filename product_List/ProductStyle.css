@@ -85,6 +85,7 @@
 .ent_audio h1{
     display: inline-block;
     line-height: 80px;
+    font-size: 50px !important;
     vertical-align: middle!important;
     height:100%;
 }
@@ -108,6 +109,7 @@
 .game_key h1{
     display: inline-block;
     line-height: 80px;
+    font-size: 50px !important;
     vertical-align: middle!important;
     height:100%;
 }
@@ -132,6 +134,7 @@
 .game_key_set h1{
     display: inline-block;
     line-height: 80px;
+    font-size: 50px !important;
     vertical-align: middle!important;
     height:100%;
 }
