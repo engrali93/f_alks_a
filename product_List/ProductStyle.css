@@ -123,8 +123,11 @@
 
 @media only screen and (max-device-width : 600px)  
 {
+    .pdRow {
+        border: 2px solid blue;
+    }
     .main_container img{
-        width:40vw; 
+        width:30vw; 
         height:auto;
         border: 2px solid red;
      }
