@@ -39,9 +39,14 @@
     border-radius: 10%;
     
 }
-.pdRow h5 span{
+.pdRow h5 {
+    color: rgb(6, 139, 1);
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif !important;
+}
+.pdRow h6 span{
     font-size: 18px;
-    color: red;
+    color: rgb(219, 6, 6);
     font-weight: bold;
     text-decoration: line-through;
     opacity: 0.6;
