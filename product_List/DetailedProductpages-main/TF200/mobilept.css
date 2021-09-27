@@ -1,0 +1,135 @@
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width : 821px)  {
+
+    .card {
+        display: grid;
+    }
+
+    .card-wrapper {
+        height: auto;
+        width: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-content {
+        margin-top: 40px;
+        padding-top: 15px;
+       
+    }
+    .product-title{
+            font-size: 7vw!important;
+    }
+    .product-link , .product-rating, .product-price{
+        font-size: 5vw!important;
+    }
+    #countdown h1{
+        font-size:5vw!important;
+    }
+    .salecounter span{
+        font-size:7vw!important;
+    }
+    .salecounter li{
+        font-size: 5vw!important;
+    }
+
+
+    .product-detail{
+        margin-top: 10vw;
+    }
+    .product-detail p{
+        font-size: 40px!important;
+        
+    }
+    .product-detail h4{
+        font-size: 40px!important;
+        font-weight: bold !important;
+    }
+    .product-detail h2{
+        font-size: 45px!important;
+        font-weight: bold !important;
+    }
+    .product-detail ul li{
+        font-size: 40px!important;
+       
+        
+    }
+    .checkpoint ul li {
+      
+        background-size: 36px!important;
+      
+    }
+    .OrderNow {
+        width: 100%;
+        display: block;
+        padding: 5px;
+
+    }
+
+    .swiper {
+        width: 100%!important;
+        height: 100%!important;
+    }
+
+    .mySwiper {
+        width: 100%;
+        height: 100%;
+    }
+    .mySwiper img {
+        width: 100%;
+        height: 100%;
+    }
+    .mySwiper2{
+        display: none !important;
+    }
+    .swiper-pagination-bullet {
+    
+        width: 20px!important;
+        height: 20px!important;
+    }
+    .spaceadd{
+        display: block!important;
+    }
+    .OrderNow{
+        margin: 20px 0 15px 0;
+    }
+    .OrderNow .btn{
+        font-size:40px!important;
+        box-shadow: 0px 0px 5px 6px rgba(0, 0, 0, 0.404)!important;
+    }
+    .OrderNow .btn-success{
+        
+        margin-right: 15px;
+    }
+    .OrderNow .btn .fab{
+        font-size: 40px!important;
+        margin: 0 5px 0 5px;
+    }
+    .OrderNow .btn .far{
+        font-size: 40px!important;
+        margin: 0 5px 0 5px;
+    }
+
+    .swiper-button-next {
+        display: none!important;
+    
+    }
+    
+    .swiper-button-prev {
+        display: none!important;
+    }
+    .product_web img{
+  
+        width: 90vw!important;
+        height: auto;
+       
+    }
+    .ptWeb{
+     
+        margin: 0 0 0 0 !important;
+    }
+    /***************************/
+    
+}
