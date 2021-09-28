@@ -54,5 +54,9 @@
         width: 80vw!important;
         border: 2px solid red;
     }
+    .main_container p{
+       
+        font-size: 28px;
+    }
    
 }
