@@ -15,7 +15,7 @@ body {
 .topMain{
     width: 100vw!important;
     border: 13px solid red;
-    display: block;
+    display: absolute;
     height: 100vh;
 }
 .card-wrapper {
