@@ -46,12 +46,7 @@
    
     padding-top: 10px ;
 }
-#end{
-    display:block;
-    background: rgb(185, 185, 185);
-    background: linear-gradient(34deg, rgba(185, 185, 185) 73%, rgb(255, 115, 0) 83%);
-    height:160px;
-}
+
 
 
 /******************************************************/
