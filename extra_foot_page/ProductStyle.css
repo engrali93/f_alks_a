@@ -54,6 +54,9 @@
         width: 80vw!important;
         border: 2px solid red;
     }
+    p{
+        font-size: 50px!important;  
+    }
     .main_container p{
        
         font-size: 50px!important;
