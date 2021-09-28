@@ -45,7 +45,9 @@
 
 @media only screen and (max-device-width : 600px)  
 {
-    
+    .row h2{
+        font-size: 55px!important;
+    }
     .main_container{
     
         align-content: left;
