@@ -15,6 +15,7 @@ body {
 .TopMain{
     display:block!important;
     border: 12px solid red;
+    height: 100vh;
 }
 .card-wrapper {
     max-width: 1100px;
