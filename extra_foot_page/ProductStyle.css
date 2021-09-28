@@ -3,7 +3,7 @@
 }
 .text_box_h{
     height:80px;
-    width:70%;
+    width:100%;
     background-image: url(img/ear1.jpg);
     background-position: center;
     text-align: center;
@@ -23,6 +23,7 @@
     align-content: center;
     justify-content: center;
     margin-bottom: 20px;
+    width: 80%;
 }
 
 
