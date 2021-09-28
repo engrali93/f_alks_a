@@ -56,10 +56,10 @@
     }
     .main_container p{
        
-        font-size: 28px;
+        font-size: 28px!important;
     }
     .main_container li{
-        font-size: 28px;
+        font-size: 28px!important;
     }
    
 }
