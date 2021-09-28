@@ -2,6 +2,7 @@
   
 .text_box{
     border-bottom: 2px solid rgba(139, 139, 139, 0.15);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .text_box_h{
     height:80px;
@@ -37,7 +38,10 @@
     font-weight: bold;
 }
 
-
+.row ul li{
+   
+    padding-top: 20px ;
+}
 
 
 
@@ -63,7 +67,7 @@
     }
     .row ul li{
         font-size: 30px!important;
-        padding-top: 10px ;
+        padding-top: 10px!important; ;
     }
    
 }
