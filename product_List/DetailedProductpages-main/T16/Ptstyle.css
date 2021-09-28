@@ -27,7 +27,7 @@ body {
 
 .card {
     position: block;
-    
+    display:grid;
 }
 
 .product-imgs {
