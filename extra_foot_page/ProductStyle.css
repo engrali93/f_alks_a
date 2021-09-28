@@ -23,8 +23,11 @@
     align-content: left;
     justify-content: left;
     margin-bottom: 20px;
-    width: 80vw!important;
+    width: 60vw!important;
     border: 2px solid red;
+}
+.Ques{
+    font-weight: bold;
 }
 
 
