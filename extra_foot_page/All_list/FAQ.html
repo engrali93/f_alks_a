@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" style="height: 100%">
+  <head>
+    <!-- Required meta tags -->
+   <title>Products</title>
+   <link rel="stylesheet" href="/Style/style.css">
+   <link rel="stylesheet" href="/Style/stylesheetMobile.css">
+   <link rel="stylesheet" href="/extra_foot_page/ProductStyle.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+   
+  
+   <script src="https://kit.fontawesome.com/65bdc96f4a.js" crossorigin="anonymous"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" ></script>
+   <link rel="import" href="navbar.html">
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script>
+            $(function(){
+               // $('#header').load('../navbarproduct/navbar.html');
+               // $('#MobileFoot').load('../footproduct/BottomFoot.html');
+                $('#header').load('/Component/navbar.html');
+                $('#footer').load('/Component/footer.html');
+                $('#MobileFoot').load('/MobileComp/BottomFoot.html');
+            });
+   </script>
+  </head>
+
+
+  <body style="height: 100%">
+
+   
+
+   
+    <!-------------------Header------------------------------------>
+     <!-----------------Navigaton Bar------------------------------->
+     <div id="header"></div>
+    <!-------------------Audio & Music------------------------------>
+      <section class="Gam_Aud">
+        <div class="game_audio">
+          <h1>FAQ's</h1>
+        </div>
+        <div class="main_container container-fluid" tabindex="-1">
+        <div class="row justify-content-md-left" >
+          <h2>Frequently asked questions (FAQ)</h2>
+          <p>Q. Is ordering online secure?</p>
+          <p>Yes. We take the utmost care with the information that you provide 
+            us when placing an order on our website (or through any other means).
+            All of the information you provide during the ordering process is 
+            restricted to our staff, and we make sure that all of our employees 
+            up-to-date on our security and privacy policies.  If you have further 
+            questions about the security of ordering online from the FalksaGroup.com, please feel free to e-mail us 
+            at support@FalksaGroup.com</p>
+        </div>
+ 
+        </div>
+      </section>
+     
+    <!----------------MObile footer--------------------------------->
+      <div class="FootMob" id="MobileFoot"></div>
+
+     <!----------Footer------------->
+     <div class="foot_add" id="footer"></div>
+     <!--------------Empty div------------------>
+     <div class="spaceft" style="height: 155px;"></div>
+          <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+  </body>
+</html>
+
+

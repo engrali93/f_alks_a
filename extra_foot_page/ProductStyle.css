@@ -1,0 +1,174 @@
+.Gam_Aud{
+    border-bottom: 2px solid rgba(139, 139, 139, 0.15);
+}
+.game_audio{
+    height:80px;
+    width:100%;
+    background-image: url(img/ear1.jpg);
+    background-position: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.472);
+    
+    color: white;
+}
+.game_audio h1{
+    display: inline-block;
+    line-height: 80px;
+    font-size: 50px !important;
+    vertical-align: middle!important;
+    height:100%;
+}
+.main_container{
+    
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main_container .col-sm-3{
+   
+    
+    margin: 30px 10px 30px 10px;
+    text-align: center;
+}
+.main_container img{
+   width:100%; 
+   height:auto;
+   border-radius: 10%;
+}
+.pdRow {
+    box-shadow: 0 0 5px 6px rgba(0, 0, 0, 0.376);
+    border-radius: 10%;
+    
+}
+.pdRow h6 {
+    color: rgb(0, 38, 255);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif !important;
+}
+.pdRow h6 span{
+    font-size: 18px;
+    color: rgb(219, 6, 6);
+    font-weight: bold;
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.main_container h5{
+    color: rgb(26, 25, 25);
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif !important;
+}
+.col-sm-3 a{
+   
+    text-decoration: none;
+    
+}
+.col-sm-3 a:hover{
+    text-decoration: underline!important;
+    color: rgb(0, 0, 0)!important;
+}
+
+/***************Entertainment music***************************************/
+.Ent_Aud{
+    border-bottom: 2px solid rgba(139, 139, 139, 0.15);
+}
+.ent_audio{
+    height:80px;
+    width:100%;
+    background-image: url(img/musicNew.jpg);
+    background-position: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.472);
+    
+    color: white;
+}
+.ent_audio h1{
+    display: inline-block;
+    line-height: 80px;
+    font-size: 50px !important;
+    vertical-align: middle!important;
+    height:100%;
+}
+
+
+/********************gaming keyboard**************************************/
+
+.Gam_Key{
+    border-bottom: 2px solid rgba(139, 139, 139, 0.15);
+}
+.game_key{
+    height:80px;
+    width:100%;
+    background-image: url(img/gam-key.jpg);
+    background-position: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.472);
+    
+    color: white;
+}
+.game_key h1{
+    display: inline-block;
+    line-height: 80px;
+    font-size: 50px !important;
+    vertical-align: middle!important;
+    height:100%;
+}
+
+
+
+/******************gaming keyboard and mouse set************************/
+
+.Gam_KSet{
+    border-bottom: 2px solid rgba(139, 139, 139, 0.15);
+}
+.game_key_set{
+    height:80px;
+    width:100%;
+    background-image: url(img/mouse.jpg);
+    background-position: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.472);
+    
+    color: white;
+}
+.game_key_set h1{
+    display: inline-block;
+    line-height: 80px;
+    font-size: 50px !important;
+    vertical-align: middle!important;
+    height:100%;
+}
+
+
+
+/******************************************************/
+
+@media only screen and (max-device-width : 600px)  
+{
+    .pdRow {
+       
+        width:fit-content!important; 
+        height: auto;
+    }
+    .pdRow h6 {
+      
+        font-size: 32px!important;
+       
+    }
+    .pdRow h6 span{
+        font-size: 28px!important;
+     }
+    .main_container img{
+        width:40vw; 
+        height:auto;
+       
+     }
+    .col-sm-3 a:active{
+        text-decoration: underline!important;
+        color: black !important;
+        font-weight: bold !important;
+       
+    }  
+
+   
+}
