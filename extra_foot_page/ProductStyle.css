@@ -23,7 +23,7 @@
     align-content: left;
     justify-content: left;
     margin-bottom: 20px;
-    width: 50vw!important;
+    width: 50vw;
     border: 2px solid red;
 }
 .main_container p{
@@ -43,30 +43,14 @@
 
 @media only screen and (max-device-width : 600px)  
 {
-    .pdRow {
-       
-        width:fit-content!important; 
-        height: auto;
+    
+    .main_container{
+    
+        align-content: left;
+        justify-content: left;
+        margin-bottom: 20px;
+        width: 80vw!important;
+        border: 2px solid red;
     }
-    .pdRow h6 {
-      
-        font-size: 32px!important;
-       
-    }
-    .pdRow h6 span{
-        font-size: 28px!important;
-     }
-    .main_container img{
-        width:40vw; 
-        height:auto;
-       
-     }
-    .col-sm-3 a:active{
-        text-decoration: underline!important;
-        color: black !important;
-        font-weight: bold !important;
-       
-    }  
-
    
 }
