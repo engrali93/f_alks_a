@@ -131,7 +131,5 @@ and (max-device-width : 821px)  {
         margin: 0 0 0 0 !important;
     }
     /***************************/
-    .foot_add_desk{
-        display:none;
-    }
+   
 }

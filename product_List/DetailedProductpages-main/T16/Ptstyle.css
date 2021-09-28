@@ -296,11 +296,12 @@ body {
     
     margin: 0 0 0 0 !important;
 }
-.foot_add_cell{
-    display: none;
-}
+
 .foot_add_desk{
     display: block;
+}
+.foot_add_cell{
+    display: none;
 }
 @media screen and (min-width: 992px) {
     .card {
@@ -324,7 +325,5 @@ body {
         width: 500px;
         height: 500px;
     }
-    .foot_add_desk{
-        display: none;
-    }
+   
 }
