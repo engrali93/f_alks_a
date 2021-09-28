@@ -299,6 +299,9 @@ body {
 .foot_add_cell{
     display: none;
 }
+.foot_add_desk{
+    display: block;
+}
 @media screen and (min-width: 992px) {
     .card {
         display: grid;
