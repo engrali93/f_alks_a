@@ -22,7 +22,7 @@
     font-size: 50px !important;
     vertical-align: middle!important;
     color: rgb(255, 166, 0);
-    text-shadow: 0 0 2px 2px black;
+    text-shadow: 7px 6px 5px rgba(0,0,0,0.66);
     height:100%;
 }
 .main_container{
