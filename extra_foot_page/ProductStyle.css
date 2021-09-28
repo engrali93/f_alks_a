@@ -55,14 +55,14 @@
         border: 2px solid red;
     }
     p{
-        font-size: 50px!important;  
+        font-size: 500px!important;  
     }
     .main_container p{
        
-        font-size: 50px!important;
+        font-size: 500px!important;
     }
     .main_container li{
-        font-size: 28px!important;
+        font-size: 280px!important;
     }
    
 }
