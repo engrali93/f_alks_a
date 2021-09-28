@@ -47,12 +47,10 @@
     padding-top: 10px ;
 }
 #end{
-    display: inline-block;
-    line-height: 160px;
-
-    color: rgb(248, 240, 226);
-    text-shadow: 7px 6px 5px rgba(0,0,0,0.66);
-    height:100%;
+    display:block;
+    background: rgb(185, 185, 185);
+    background: linear-gradient(34deg, rgba(185, 185, 185) 73%, rgb(255, 115, 0) 83%);
+    height:160px;
 }
 
 
