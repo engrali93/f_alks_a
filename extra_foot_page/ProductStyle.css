@@ -1,3 +1,6 @@
+@media only screen and (min-device-width : 600px)  
+{
+  
 .text_box{
     border-bottom: 2px solid rgba(139, 139, 139, 0.15);
 }
@@ -23,8 +26,6 @@
     align-content: left;
     justify-content: left;
     margin-bottom: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
     width: 50vw;
     border: 2px solid red;
 }
@@ -33,11 +34,11 @@
     font-size: 18px;
 }
 .ques{
-    margin-top: 20px;
+    margin-top: 50px;
     font-weight: bold;
 }
 
-
+}
 
 
 
