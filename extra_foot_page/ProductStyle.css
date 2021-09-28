@@ -23,6 +23,8 @@
     align-content: left;
     justify-content: left;
     margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
     width: 50vw;
     border: 2px solid red;
 }
