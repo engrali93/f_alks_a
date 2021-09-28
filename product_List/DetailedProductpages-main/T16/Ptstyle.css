@@ -22,7 +22,7 @@ body {
     margin: 0 auto;
     display: block;
     height: 100vh;
- 
+    border: 3px solid red;
 }
 
 .card {
