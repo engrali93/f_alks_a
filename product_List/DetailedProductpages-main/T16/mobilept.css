@@ -134,5 +134,7 @@ and (max-device-width : 821px)  {
     .foot_add_desk{
         display: none!important;
     }
-   
+    .foot_add_cell{
+        display: block!important;
+    }
 }
