@@ -13,11 +13,7 @@ body {
     margin-top: 40px;
     
 }
-.TopMain{
-    display:block!important;
-    border: 12px solid red;
-    height: 100vh!important;
-}
+
 .card-wrapper {
     max-width: 95vw;
     margin: 0 auto;
@@ -286,7 +282,7 @@ body {
 }
 .product_web{
     display: block;
-   border: 2px solid red;
+   
   
    width:100%;
 }
