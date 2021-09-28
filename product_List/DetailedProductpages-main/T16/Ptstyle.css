@@ -326,7 +326,7 @@ body {
         height: 500px;
     }
     .foot_add_cell{
-        display: block!important;
+        display: none!important;
     }
     
 
