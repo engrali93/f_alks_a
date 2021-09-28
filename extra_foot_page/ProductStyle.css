@@ -26,6 +26,9 @@
     width: 50vw!important;
     border: 2px solid red;
 }
+.main_container p{
+    font-family: 'Courier New', Courier, monospace;
+}
 .Ques{
     font-weight: bold;
 }
