@@ -60,6 +60,11 @@
 
 @media only screen and (max-device-width : 600px)  
 {
+    .text_box_h h1{
+        
+        font-size: 70px !important;
+      
+    }
     .row h2{
         font-size: 55px!important;
     }
