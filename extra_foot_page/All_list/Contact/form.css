@@ -34,7 +34,7 @@ body
 	margin-top: 10px;
 }	
 #reused_form .row Label{
-	font-size:40px;
+	font-size:20px;
 }
 .crossIC{
 	text-align:right; 
@@ -44,10 +44,15 @@ body
   .crossIC .fas{
 	color:red;
   }
-  @media only screen and (min-width: 990px) {
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 821px) {
 	/* styles for browsers larger than 960px; */
 	.col-md-6{
 		width: 100vw !important;
+	}
+	#reused_form .row Label{
+		font-size:40px;
 	}
   }
   @media only screen and (max-width: 500px) {
