@@ -12,9 +12,7 @@ body
 	height:100%;
 	width:100%;***/
 }
-.COnform{
-	width: 50vw;
-}
+
 .container{
 	margin-top:35px;
 	padding-bottom: 35px;
@@ -52,7 +50,7 @@ body
   @media only screen and (max-width: 500px) {
 	/* styles for browsers larger than 960px; */
 	#form_container{
-		width:90vw;
+		width:60vw;
 	}
 	.col-6{
 		width:60%;
