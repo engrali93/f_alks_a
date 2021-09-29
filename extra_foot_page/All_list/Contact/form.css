@@ -88,7 +88,7 @@ and (max-device-width : 821px) {
 		line-height: 28px;
 	   font-size: 35px; 
    }
-   textarea [type="textarea"]
+   textarea [placeholder="Type your message"]
    {
 	padding: 20px 10px; 
 		line-height: 28px;
@@ -100,7 +100,7 @@ and (max-device-width : 821px) {
    
  
    
-   .btn{
+   .btnsub{
 	   font-size: 40px;
    }
   }
