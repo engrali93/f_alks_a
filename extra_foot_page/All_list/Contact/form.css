@@ -70,21 +70,18 @@ and (max-device-width : 821px) {
 		font-size: 35px; 
 	}
 
-
-   textarea [placeholder="Type your message"]
-   {
-	padding: 20px 10px; 
+	#reused_form .row textarea{
+		padding: 20px 10px; 
 		line-height: 28px;
 	   font-size: 35px; 
    }
-   
    
   
    
  
    
    .btnsub{
-	   font-size: 40px;
+	   font-size: 40px!important;
    }
   }
  
