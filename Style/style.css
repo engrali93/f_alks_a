@@ -23,6 +23,7 @@
     font-size: 18px;
 }
 .nav-item a:hover{
+    border-radius: 10px;
     background-color: rgb(255, 123, 0);;
     color: rgb(98, 0, 255)!important;
     cursor: pointer;
