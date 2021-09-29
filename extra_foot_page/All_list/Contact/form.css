@@ -6,11 +6,11 @@ html{
 body
 {
 
-	background-image: url("images/Picture2.png");
+	/***background-image: url("images/Picture2.png");
 	background-size: 50px 100px;
 	background-repeat: repeat;
 	height:100%;
-	width:100%;
+	width:100%;***/
 }
 .container{
 	margin-top:35px;
