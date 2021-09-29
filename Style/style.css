@@ -24,6 +24,7 @@
 }
 .nav-item a:hover{
     border-radius: 10px;
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.418);
     background-color: rgb(255, 123, 0);;
     color: rgb(98, 0, 255)!important;
     cursor: pointer;
