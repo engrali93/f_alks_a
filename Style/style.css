@@ -20,7 +20,11 @@
 /*********************************/
 .nav-item{
     font-weight: bold;
-    font-size: 55px;
+    font-size: 40px;
+}
+.nav-item:hover{
+    color: rgb(255, 123, 0);
+    cursor: pointer;
 }
 /*************************************/
 
