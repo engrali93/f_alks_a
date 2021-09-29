@@ -83,6 +83,7 @@ and (max-device-width : 821px) {
    .btnsub{
 	   font-size: 40px!important;
 	   padding: 5px 10px 5px 10px!important;
+	   width: 100px !important;
    }
   }
  
