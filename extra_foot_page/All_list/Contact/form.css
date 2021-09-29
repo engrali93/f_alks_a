@@ -24,7 +24,13 @@ body
 }
 #form_container
 {
-	background:rgb(255, 217, 155);
+	
+    background: rgb(185, 185, 185);
+    background: linear-gradient(34deg, rgba(185, 185, 185) 73%, rgb(255, 115, 0) 83%);
+   
+
+
+	/**background:rgb(255, 217, 155);**/
 	width: 100% !important;
 	border-radius: 40px;
     border: 0;
@@ -63,10 +69,25 @@ and (max-device-width : 821px) {
 		 line-height: 28px;
 		font-size: 35px; 
 	}
-	#reused_form .row input[type="text"][placeholder="Enter Name"]{
+	#reused_form .row input
+	[type="text"]
+	[type="tel"]
+	[type="email"]
+	[type="subject"]
+	[type="message"]
+	
+	[placeholder="Enter Name"]
+	[placeholder="Additional information"]
+	[placeholder="Enter Subject"]
+	[placeholder="Enter Email"]
+	[placeholder="e.g. 03001234567"]
+	{
 		padding: 20px 10px; 
 		line-height: 28px;
 	   font-size: 35px; 
+   }
+   .btn{
+	   font-size: 40px;
    }
   }
  
