@@ -71,18 +71,6 @@ and (max-device-width : 821px) {
 	}
 	#reused_form .row input
 	[type="text"]
-	[type="tel"]
-	[type="email"]
-	[type="subject"]
-	[type="message"]
-	
-	[placeholder="Enter Name"]
-	[placeholder="e.g. 03001234567"]
-	[placeholder="Enter Email"]
-	[placeholder="Enter Subject"]
-	[placeholder="Type your message"]
-	
-	
 	
 	{
 		padding: 20px 10px; 
