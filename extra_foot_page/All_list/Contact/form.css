@@ -64,30 +64,13 @@ and (max-device-width : 821px) {
 	#reused_form .row Label{
 		font-size:40px;
 	}
-	#reused_form .row input[type="text"]{
+	#reused_form .row input{
 		 padding: 20px 10px; 
 		 line-height: 28px;
 		font-size: 35px; 
 	}
 
-   input[type="tel"]
-   {
-	padding: 20px 10px; 
-		line-height: 28px;
-	   font-size: 35px; 
-   }
-   input[type="email"]
-   {
-	padding: 20px 10px; 
-		line-height: 28px;
-	   font-size: 35px; 
-   }
-   input[type="subject"]
-   {
-	padding: 20px 10px; 
-		line-height: 28px;
-	   font-size: 35px; 
-   }
+
    textarea [placeholder="Type your message"]
    {
 	padding: 20px 10px; 
