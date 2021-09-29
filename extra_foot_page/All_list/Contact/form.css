@@ -24,7 +24,7 @@ body
 }
 #form_container
 {
-	background:rgb(204, 9, 9);
+	background:rgb(255, 217, 155);
 	width: 100% !important;
 	border-radius: 40px;
     border: 0;
@@ -44,6 +44,7 @@ body
   .crossIC .fas{
 	color:red;
   }
+
  @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 821px) {
@@ -54,14 +55,8 @@ and (max-device-width : 821px) {
 	#reused_form .row Label{
 		font-size:40px;
 	}
+	#reused_form .row input[type="text"]{
+		 padding: 20px 10px; 
+		 line-height: 28px; }
   }
-  @media only screen and (max-width: 500px) {
-	/* styles for browsers larger than 960px; */
-	.col-md-6{
-		width: 100vw !important;
-		border:2px solid red;
-	}
-	#reused_form .row Label{
-		font-size:40px!important;
-	}
-  }
+ 
