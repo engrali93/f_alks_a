@@ -69,14 +69,41 @@ and (max-device-width : 821px) {
 		 line-height: 28px;
 		font-size: 35px; 
 	}
-	#reused_form .row input
-	[type="text"]
-	
-	{
-		padding: 20px 10px; 
+
+   input[type="tel"]
+   {
+	padding: 20px 10px; 
 		line-height: 28px;
 	   font-size: 35px; 
    }
+   input[type="email"]
+   {
+	padding: 20px 10px; 
+		line-height: 28px;
+	   font-size: 35px; 
+   }
+   input[type="subject"]
+   {
+	padding: 20px 10px; 
+		line-height: 28px;
+	   font-size: 35px; 
+   }
+   textarea [type="textarea"]
+   {
+	padding: 20px 10px; 
+		line-height: 28px;
+	   font-size: 35px; 
+   }
+   
+   
+  
+   
+   [placeholder="Enter Name"]
+   [placeholder="e.g. 03001234567"]
+   [placeholder="Enter Email"]
+   [placeholder="Enter Subject"]
+   [placeholder="Type your message"]
+   
    .btn{
 	   font-size: 40px;
    }
