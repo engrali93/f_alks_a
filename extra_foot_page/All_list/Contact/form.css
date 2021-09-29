@@ -50,7 +50,7 @@ body
   @media only screen and (max-width: 500px) {
 	/* styles for browsers larger than 960px; */
 	.col-md-6{
-		width: 90vw !important;
+		width: 100vw !important;
 		border:2px solid red;
 	}
 
