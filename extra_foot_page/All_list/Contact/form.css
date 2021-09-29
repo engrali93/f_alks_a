@@ -49,6 +49,9 @@ body
 and (min-device-width : 320px) 
 and (max-device-width : 821px) {
 	/* styles for browsers larger than 960px; */
+	.head h1{
+		font-size:45px!important;
+	}
 	.col-md-6{
 		width: 100vw !important;
 	}
@@ -57,6 +60,13 @@ and (max-device-width : 821px) {
 	}
 	#reused_form .row input[type="text"]{
 		 padding: 20px 10px; 
-		 line-height: 28px; }
+		 line-height: 28px;
+		font-size: 35px; 
+	}
+	#reused_form .row input[type="text"][placeholder="Enter Name"]{
+		padding: 20px 10px; 
+		line-height: 28px;
+	   font-size: 35px; 
+   }
   }
  
