@@ -33,6 +33,9 @@ body
 #reused_form .row{
 	margin-top: 10px;
 }	
+#reused_form .row Label{
+	font-size:20px;
+}
 .crossIC{
 	text-align:right; 
 	font-size:25px;  
