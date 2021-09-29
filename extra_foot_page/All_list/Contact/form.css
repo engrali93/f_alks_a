@@ -77,10 +77,13 @@ and (max-device-width : 821px) {
 	[type="message"]
 	
 	[placeholder="Enter Name"]
-	[placeholder="Additional information"]
-	[placeholder="Enter Subject"]
-	[placeholder="Enter Email"]
 	[placeholder="e.g. 03001234567"]
+	[placeholder="Enter Email"]
+	[placeholder="Enter Subject"]
+	[placeholder="Type your message"]
+	
+	
+	
 	{
 		padding: 20px 10px; 
 		line-height: 28px;
