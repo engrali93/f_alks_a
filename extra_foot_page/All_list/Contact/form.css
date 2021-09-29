@@ -98,11 +98,7 @@ and (max-device-width : 821px) {
    
   
    
-   [placeholder="Enter Name"]
-   [placeholder="e.g. 03001234567"]
-   [placeholder="Enter Email"]
-   [placeholder="Enter Subject"]
-   [placeholder="Type your message"]
+ 
    
    .btn{
 	   font-size: 40px;
