@@ -55,6 +55,6 @@ body
 		width:60%;
 	  }
 	.pd_note{
-		display: hidden;
+		display: none;
 	}  
   }
