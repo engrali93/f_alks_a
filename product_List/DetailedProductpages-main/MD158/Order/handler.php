@@ -23,6 +23,6 @@ $validator->field('address')->isRequired()->maxLength(6000);
 
 
 
-$pp->sendEmailTo('falksa.brands@gmail.com'); // ← Your email here
+$pp->sendEmailTo('support@falksagroup.com'); // ← Your email here
 
 echo $pp->process($_POST);
