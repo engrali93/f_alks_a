@@ -2,7 +2,9 @@ html{
 	height:100%;
 }
 
-
+#product{
+	appearance: inherit;
+}
 body
 {
 
