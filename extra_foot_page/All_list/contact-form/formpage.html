@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact</title>
+   <link rel="stylesheet" href="/Style/style.css">
+   <link rel="stylesheet" href="/Style/stylesheetMobile.css">
+   <link rel="stylesheet" href="/extra_foot_page/ProductStyle.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+   
+  
+   <script src="https://kit.fontawesome.com/65bdc96f4a.js" crossorigin="anonymous"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" ></script>
+   <link rel="import" href="navbar.html">
+   <link rel="stylesheet" href="Contact/form.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ 
+   <script>
+            $(function(){
+               // $('#header').load('../navbarproduct/navbar.html');
+               // $('#MobileFoot').load('../footproduct/BottomFoot.html');
+                $('#header').load('/Component/navbar.html');
+                $('#footer').load('/Component/footer.html');
+                $('#MobileFoot').load('/MobileComp/BottomFoot.html');
+                $('#contactForm').load('/extra_foot_page/All_list/Contact/formpage.html');
+            });
+   </script>
+        <!-- Latest compiled and minified CSS -->
+       
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="form.css" >
+        <script src="form.js"></script>
+    </head>
+    <body >
+         
+    <!-------------------Header------------------------------------>
+     <!-----------------Navigaton Bar------------------------------->
+     <div id="header"></div>
+     <!-------------------Audio & Music------------------------------>
+       <section class="text_box" >
+         <div class="text_box_h">
+           <h1>Contact</h1>
+         </div>
+         <div class="main_container container-fluid" >
+         <div class="row justify-content-md-left" >
+ 
+ 
+ 
+             <!------------------------------------------------------------------>
+             
+             <div class="rowA" style= "margin-top: 40px;">
+               <p><i class="far fa-clock fa-lg me-3"></i> 9am to 6pm (Mon-Sun)</p>
+               </div>
+               
+               <div class="rowA" >
+                 <p><i class="fas fa-envelope me-3"></i><a href="mailto:support@falksagroup.com">support@FalksaGroup.com</a></p>
+                 </div>
+   
+                 <div class="rowA">
+                 <p><i class="fas fa-phone me-3"></i> + 92 323 2833436</p>
+                </div>
+               <div class="rowA">
+                <p><i class="fab fa-whatsapp fa-lg me-3"></i> + 92 323 2833436</p>
+               </div>
+               
+              
+             
+ 
+         </div>
+
+         <!------------------------------------------------->
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>Contact Us</h2> Got a question ? Feedback? Awesome! 
+                    <p> Send your message in the form below and we will get back to you as early as possible. </p>
+                    <form role="form" method="post" id="reused_form" >
+                        <div class="form-group">
+                            <label for="name"> Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"> Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="name"> Message:</label>
+                            <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here" maxlength="6000" rows="7" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Post It! &rarr;</button>
+                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                </div>
+            </div>
+        </div>
+
+          <!----------------MObile footer--------------------------------->
+      <div class="FootMob" id="MobileFoot"></div>
+
+      <!----------Footer------------->
+      <div class="foot_add" id="footer"></div>
+      <!--------------Empty div------------------>
+      <div class="spaceft" style="height: 155px;"></div>
+           <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    </body>
+</html>
