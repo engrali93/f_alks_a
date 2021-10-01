@@ -54,4 +54,7 @@ body
 	.col-6{
 		width:60%;
 	  }
+	.pd_note{
+		display: hidden;
+	}  
   }
