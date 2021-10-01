@@ -1,0 +1,94 @@
+html{
+	height:100%;
+}
+
+
+body
+{
+
+	/***background-image: url("images/Picture2.png");
+	background-size: 50px 100px;
+	background-repeat: repeat;
+	height:100%;
+	width:100%;***/
+}
+
+.container{
+	margin-top:35px;
+	padding-bottom: 35px;
+
+}
+.head{
+	margin-top:25px!important; 
+	
+}
+#form_container
+{
+	
+    background: rgb(185, 185, 185);
+    background: linear-gradient(34deg, rgba(185, 185, 185) 73%, rgb(255, 115, 0) 83%);
+   
+
+
+	/**background:rgb(255, 217, 155);**/
+	width: 100% !important;
+	border-radius: 40px;
+    border: 0;
+	
+}
+#reused_form .row{
+	margin-top: 10px;
+}	
+#reused_form .row Label{
+	font-size:20px;
+}
+.crossIC{
+	text-align:right; 
+	font-size:25px;  
+	
+  }
+  .crossIC .fas{
+	color:red;
+  }
+  .btnsub{
+	font-size: 20px;
+	padding: 5px 10px 5px 10px!important;
+	width: 300px;
+	box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
+}
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 821px) {
+	/* styles for browsers larger than 960px; */
+	.head h1{
+		font-size:45px!important;
+	}
+	.col-md-6{
+		width: 100vw !important;
+	}
+	#reused_form .row Label{
+		font-size:40px;
+	}
+	#reused_form .row input{
+		 padding: 20px 10px; 
+		 line-height: 28px;
+		font-size: 35px; 
+	}
+
+	#reused_form .row textarea{
+		padding: 20px 10px; 
+		line-height: 28px;
+	   font-size: 35px; 
+   }
+   
+  
+   
+ 
+   
+   .btnsub{
+	   font-size: 40px!important;
+	   padding: 5px 10px 5px 10px!important;
+	   width: 300px !important;
+   }
+  }
+ 
