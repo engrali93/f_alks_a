@@ -70,7 +70,7 @@ and (max-device-width : 821px)  {
         height: 750px;
         
         margin: 5px;
-        margin-top: 40px;
+        margin-top: 120px;
     }    
         .rabm img{
             width: 350px;
@@ -78,6 +78,7 @@ and (max-device-width : 821px)  {
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             margin: 7px;
             border-radius: 15%;
+            margin-bottom: 70 ;
             
         }
 
