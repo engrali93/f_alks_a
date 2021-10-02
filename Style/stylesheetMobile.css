@@ -67,14 +67,14 @@ and (max-device-width : 821px)  {
         }
     .rabm{
         width: fit-content;
-        height: 550px;
+        height: 750px;
         
         margin: 5px;
         margin-top: 20px;
     }    
         .rabm img{
-            width: 250px;
-            height: 250px;
+            width: 350px;
+            height: 350px;
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             margin: 7px;
             border-radius: 15%;
