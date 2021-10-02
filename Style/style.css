@@ -79,6 +79,7 @@ background: linear-gradient(to top, #E87F00 18%, #857474 50%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
     font-size:100px;
+    margin: 20vh 0 5vh 0;
 }
 /*************************************************/
 .containerItem{
