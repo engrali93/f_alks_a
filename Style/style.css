@@ -64,6 +64,21 @@
 /******************************************/
 .Arrival{
     font-size:100px;
+    background: #E87F00;
+background: -webkit-linear-gradient(to top, #E87F00 18%, #857474 50%);
+background: -moz-linear-gradient(to top, #E87F00 18%, #857474 50%);
+background: linear-gradient(to top, #E87F00 18%, #857474 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.limitedfont{
+    background: #E87F00;
+background: -webkit-linear-gradient(to top, #E87F00 18%, #857474 50%);
+background: -moz-linear-gradient(to top, #E87F00 18%, #857474 50%);
+background: linear-gradient(to top, #E87F00 18%, #857474 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-size:100px;
 }
 /*************************************************/
 .containerItem{
