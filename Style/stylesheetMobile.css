@@ -32,9 +32,16 @@ and (max-device-width : 821px)  {
      box-shadow: 0 0 5px 6px rgba(0, 0, 0, 0.349);
 }
 /*********************************/
+/**** limited edition*********/
+/********************************/
 .limitedfont{
     font-size: 80px!important;
     margin: 5vh 0 5vh 0!important;
+}
+.flash-box{
+ 
+    width: 80%;
+    
 }
 /*************************************/
 /**Seller BEst***/
