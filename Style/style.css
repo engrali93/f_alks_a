@@ -122,16 +122,16 @@ background: linear-gradient(to top, #E87F00 18%, #857474 50%);
         box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
     }
 .rab3{
-        width: 415px;
-        height: 420px;
+        width: 815px;
+        height: 820px;
        
         margin-top: 20px;
         margin: 5px;
 }
 .rab3 img{
-    width: 400px;
-    height: 410px;
-   
+    width: 800px;
+    height: 810px;
+    margin-top: 20px;
     margin: 5px;
     border-radius: 15%;
 }
