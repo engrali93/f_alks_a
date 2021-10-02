@@ -53,14 +53,14 @@ and (max-device-width : 821px)  {
 }
     .ram{
         width: fit-content;
-        height: 500px;
+        height: 600px;
      
        margin-bottom: 20px;
         
     }
         .ram img{
-            width: 500px;
-            height: 500px;
+            width: 600px;
+            height: 600px;
            
             box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.233);
             border-radius: 10%;
